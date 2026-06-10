@@ -1,0 +1,14 @@
+{
+  "ollama": {
+    "minute_count": 3,
+    "minute_reset": 1775501038.964122,
+    "hour_count": 5,
+    "hour_reset": 1775504517.92057
+  },
+  "test_service": {
+    "minute_count": 2,
+    "minute_reset": 1775501039.2775402,
+    "hour_count": 2,
+    "hour_reset": 1775504579.2775402
+  }
+}

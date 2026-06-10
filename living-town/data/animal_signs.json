@@ -1,0 +1,196 @@
+{
+  "animalSigns": {
+    "Rat": {
+      "biorhythms": {
+        "MNF": 4,
+        "SPL": 3,
+        "BEU": 1,
+        "STR": 0,
+        "FND": 1,
+        "KNO": 2,
+        "UND": 2,
+        "WIS": 5,
+        "VIT": 3,
+        "SEX": 4,
+        "DIV": 5,
+        "EGO": 6
+      }
+    },
+    "Ox": {
+      "biorhythms": {
+        "MNF": 3,
+        "SPL": 4,
+        "BEU": 0,
+        "STR": 1,
+        "FND": 2,
+        "KNO": 3,
+        "UND": 1,
+        "WIS": 4,
+        "VIT": 2,
+        "SEX": 5,
+        "DIV": 6,
+        "EGO": 5
+      }
+    },
+    "Tiger": {
+      "biorhythms": {
+        "MNF": 2,
+        "SPL": 5,
+        "BEU": 1,
+        "STR": 2,
+        "FND": 3,
+        "KNO": 4,
+        "UND": 0,
+        "WIS": 3,
+        "VIT": 1,
+        "SEX": 6,
+        "DIV": 5,
+        "EGO": 4
+      }
+    },
+    "Rabbit": {
+      "biorhythms": {
+        "MNF": 1,
+        "SPL": 6,
+        "BEU": 2,
+        "STR": 3,
+        "FND": 4,
+        "KNO": 5,
+        "UND": 1,
+        "WIS": 2,
+        "VIT": 0,
+        "SEX": 5,
+        "DIV": 4,
+        "EGO": 3
+      }
+    },
+    "Dragon": {
+      "biorhythms": {
+        "MNF": 0,
+        "SPL": 5,
+        "BEU": 3,
+        "STR": 4,
+        "FND": 5,
+        "KNO": 6,
+        "UND": 2,
+        "WIS": 1,
+        "VIT": 1,
+        "SEX": 4,
+        "DIV": 3,
+        "EGO": 2
+      }
+    },
+    "Snake": {
+      "biorhythms": {
+        "MNF": 1,
+        "SPL": 4,
+        "BEU": 4,
+        "STR": 5,
+        "FND": 6,
+        "KNO": 5,
+        "UND": 3,
+        "WIS": 0,
+        "VIT": 2,
+        "SEX": 3,
+        "DIV": 2,
+        "EGO": 1
+      }
+    },
+    "Horse": {
+      "biorhythms": {
+        "MNF": 2,
+        "SPL": 3,
+        "BEU": 5,
+        "STR": 6,
+        "FND": 5,
+        "KNO": 4,
+        "UND": 4,
+        "WIS": 1,
+        "VIT": 3,
+        "SEX": 2,
+        "DIV": 1,
+        "EGO": 0
+      }
+    },
+    "Goat": {
+      "biorhythms": {
+        "MNF": 3,
+        "SPL": 2,
+        "BEU": 6,
+        "STR": 5,
+        "FND": 4,
+        "KNO": 3,
+        "UND": 5,
+        "WIS": 2,
+        "VIT": 4,
+        "SEX": 1,
+        "DIV": 0,
+        "EGO": 1
+      }
+    },
+    "Monkey": {
+      "biorhythms": {
+        "MNF": 4,
+        "SPL": 1,
+        "BEU": 5,
+        "STR": 4,
+        "FND": 3,
+        "KNO": 2,
+        "UND": 6,
+        "WIS": 3,
+        "VIT": 5,
+        "SEX": 0,
+        "DIV": 1,
+        "EGO": 2
+      }
+    },
+    "Rooster": {
+      "biorhythms": {
+        "MNF": 5,
+        "SPL": 0,
+        "BEU": 4,
+        "STR": 3,
+        "FND": 2,
+        "KNO": 1,
+        "UND": 5,
+        "WIS": 4,
+        "VIT": 6,
+        "SEX": 1,
+        "DIV": 2,
+        "EGO": 3
+      }
+    },
+    "Dog": {
+      "biorhythms": {
+        "MNF": 6,
+        "SPL": 1,
+        "BEU": 3,
+        "STR": 2,
+        "FND": 1,
+        "KNO": 0,
+        "UND": 4,
+        "WIS": 5,
+        "VIT": 5,
+        "SEX": 2,
+        "DIV": 3,
+        "EGO": 4
+      }
+    },
+    "Boar": {
+      "biorhythms": {
+        "MNF": 5,
+        "SPL": 2,
+        "BEU": 2,
+        "STR": 1,
+        "FND": 0,
+        "KNO": 1,
+        "UND": 3,
+        "WIS": 6,
+        "VIT": 4,
+        "SEX": 3,
+        "DIV": 4,
+        "EGO": 5
+      }
+    }
+  }
+}

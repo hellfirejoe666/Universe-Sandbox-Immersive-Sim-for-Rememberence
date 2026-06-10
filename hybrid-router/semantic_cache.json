@@ -1,0 +1,90 @@
+[
+  {
+    "hash": "aa444605b35708cc",
+    "query": "What is 2 + 2",
+    "response": "2 + 2 equals 4.",
+    "path": "smart",
+    "tokens_used": 6,
+    "timestamp": "2026-04-23T17:45:19.286152",
+    "last_used": "2026-04-23T17:45:19.286165",
+    "hits": 1,
+    "similarity_match": null
+  },
+  {
+    "hash": "bf226a886ecf2cf9",
+    "query": "Can you please help me check if there are any urgent emails I need to respond to",
+    "response": "To check for urgent emails that need your response, you can follow these st\u001b[2D\u001b[K\nsteps:\n\n1. **Open Your Email Client**: Launch the email application (e.g., Outlook,\u001b[8D\u001b[K\nOutlook, Gmail) or access it through a web browser.\n\n2. **Check Unread Emails**: Look for any unread emails in your inbox. These\u001b[5D\u001b[K\nThese are often highlighted differently based on the software.\n\n3. **Look for Specific Keywords**: Many people flag urgent emails with spec\u001b[4D\u001b[K\nspecific keywords like \"Urgent,\" \"Action Required,\" \"Immediate Attention,\" \u001b[K\nor similar phrases.\n\n4. **Review Subject Lines and Senders**: Check the subject lines of emails \u001b[K\nfor any indications that the message is time-sensitive. Emails from colleag\u001b[7D\u001b[K\ncolleagues, supervisors, clients, or vendors who often send critical inform\u001b[6D\u001b[K\ninformation might be marked as urgent.\n\n5. **Scan for Time-Stamps**: If your email client allows it, you can sort e\u001b[1D\u001b[K\nemails by date to see if there are recent messages requiring attention.\n\n6. **Prioritize Responses**: Once you identify any urgent emails, prioritiz\u001b[9D\u001b[K\nprioritize them based on their importance and relevance to your current tas\u001b[3D\u001b[K\ntasks or responsibilities.\n\nIf you need specific advice tailored to a particular email application or s\u001b[1D\u001b[K\nsystem, let me know!",
+    "path": "smart",
+    "tokens_used": 336,
+    "timestamp": "2026-04-23T19:33:13.890694",
+    "last_used": "2026-04-23T19:33:13.890704",
+    "hits": 1,
+    "similarity_match": null
+  },
+  {
+    "hash": "e50344d2ddf6b7ac",
+    "query": "What is your name",
+    "response": "My name is Qwen. I'm a large language model created by Alibaba Cloud. How c\u001b[1D\u001b[K\ncan I assist you today?",
+    "path": "smart",
+    "tokens_used": 30,
+    "timestamp": "2026-04-24T22:39:11.349310",
+    "last_used": "2026-06-01T09:43:43.915900",
+    "hits": 3,
+    "similarity_match": null
+  },
+  {
+    "hash": "cfa4dc0beb7dd7f1",
+    "query": "Write a short fantasy story about a dragon",
+    "response": "[Response timeout - try again]",
+    "path": "localgen",
+    "tokens_used": 0,
+    "timestamp": "2026-04-24T23:14:29.656491",
+    "last_used": "2026-04-24T23:14:29.656524",
+    "hits": 1,
+    "similarity_match": null
+  },
+  {
+    "hash": "55fef83de11934b5",
+    "query": "What is the hybrid router",
+    "response": "[Response timeout - try again]",
+    "path": "localgen",
+    "tokens_used": 0,
+    "timestamp": "2026-04-25T05:57:37.211246",
+    "last_used": "2026-04-25T05:57:37.211277",
+    "hits": 1,
+    "similarity_match": null
+  },
+  {
+    "hash": "185f8db32271fe25",
+    "query": "Hello",
+    "response": "Hello! How can I assist you today? Feel free to ask me any questions or let\u001b[3D\u001b[K\nlet me know if you need help with anything specific.",
+    "path": "smart",
+    "tokens_used": 36,
+    "timestamp": "2026-04-25T06:14:42.676069",
+    "last_used": "2026-06-01T09:43:43.891285",
+    "hits": 2,
+    "similarity_match": null
+  },
+  {
+    "hash": "fd53e320df49a920",
+    "query": "2 + 2",
+    "response": "2 + 2 equals 4.",
+    "path": "smart",
+    "tokens_used": 6,
+    "timestamp": "2026-04-25T06:15:42.239711",
+    "last_used": "2026-06-01T09:43:43.895632",
+    "hits": 2,
+    "similarity_match": null
+  },
+  {
+    "hash": "392e8594d58bf6f4",
+    "query": "Write a short poem about AI",
+    "response": "[Response timeout - try again]",
+    "path": "localgen",
+    "tokens_used": 0,
+    "timestamp": "2026-04-25T06:16:44.446202",
+    "last_used": "2026-06-01T09:43:43.917145",
+    "hits": 2,
+    "similarity_match": null
+  }
+]

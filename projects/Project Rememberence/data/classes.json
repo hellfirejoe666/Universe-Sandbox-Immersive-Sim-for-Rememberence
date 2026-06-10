@@ -1,0 +1,394 @@
+{
+  "classes": {
+    "Melee": {
+      "skills": [
+        {
+          "name": "One Handed",
+          "atk_bonus": 2,
+          "def_bonus": 1,
+          "spd_bonus": 3,
+          "pattern": "Area",
+          "traits": [
+            "Dual Wield: You may equip two of this kind of weapon at a time."
+          ]
+        },
+        {
+          "name": "Two Handed",
+          "atk_bonus": 2,
+          "def_bonus": 3,
+          "spd_bonus": 1,
+          "pattern": "Lateral",
+          "traits": [
+            "Shockwave: This kind of weapon may strike a number of targets in the same space."
+          ]
+        },
+        {
+          "name": "Whip",
+          "atk_bonus": 3,
+          "def_bonus": 1,
+          "spd_bonus": 2,
+          "pattern": "Corner Diagonal",
+          "traits": [
+            "Sting: This kind of weapon may ignore some of a target\\"
+          ]
+        },
+        {
+          "name": "Staff",
+          "atk_bonus": 1,
+          "def_bonus": 3,
+          "spd_bonus": 2,
+          "pattern": "Corner Lateral",
+          "traits": [
+            "Catalyst: This kind of weapon may increase Magic damage or counters."
+          ]
+        },
+        {
+          "name": "Fists",
+          "atk_bonus": 1,
+          "def_bonus": 1,
+          "spd_bonus": 4,
+          "pattern": "Omni",
+          "traits": [
+            "Breaker: This kind of weapon may reduce the target\\"
+          ]
+        },
+        {
+          "name": "Chi",
+          "atk_bonus": 1,
+          "def_bonus": 4,
+          "spd_bonus": 1,
+          "pattern": "Diagonal",
+          "traits": [
+            "Focus: This kind of weapon may increase Special damage or counters."
+          ]
+        }
+      ],
+      "controlled": "STR+FND"
+    },
+    "Ranged": {
+      "skills": [
+        {
+          "name": "Thrown",
+          "atk_bonus": 2,
+          "def_bonus": 1,
+          "spd_bonus": 3,
+          "pattern": "Omni",
+          "traits": [
+            "Recall: A number of weapons that are thrown may be returned to the owner."
+          ]
+        },
+        {
+          "name": "Bow",
+          "atk_bonus": 3,
+          "def_bonus": 0,
+          "spd_bonus": 3,
+          "pattern": "Corner Lateral",
+          "traits": [
+            "Focus: This kind of weapon may increase special damage or counters."
+          ]
+        },
+        {
+          "name": "Crossbow",
+          "atk_bonus": 1,
+          "def_bonus": 2,
+          "spd_bonus": 3,
+          "pattern": "Corner Diagonal",
+          "traits": [
+            "Breaker: This kind of weapon may reduce the target\\"
+          ]
+        },
+        {
+          "name": "Shotgun",
+          "atk_bonus": 1,
+          "def_bonus": 3,
+          "spd_bonus": 2,
+          "pattern": "Spread",
+          "traits": [
+            "Shockwave: This kind of weapon may strike a number of targets in the same space."
+          ]
+        },
+        {
+          "name": "Pistol",
+          "atk_bonus": 3,
+          "def_bonus": 1,
+          "spd_bonus": 2,
+          "pattern": "Diagonal",
+          "traits": [
+            "Dual Wield: You may equip two of this kind of weapon at a time."
+          ]
+        },
+        {
+          "name": "Rifle",
+          "atk_bonus": 4,
+          "def_bonus": 0,
+          "spd_bonus": 2,
+          "pattern": "Lateral",
+          "traits": [
+            "Catalyst: This kind of weapon may increase Magic damage or counters."
+          ]
+        }
+      ],
+      "controlled": "VIT+EGO"
+    },
+    "Magic": {
+      "skills": [
+        {
+          "name": "Earth",
+          "atk_bonus": 2,
+          "def_bonus": 3,
+          "spd_bonus": 1,
+          "pattern": "Area",
+          "traits": [
+            "Quake: This kind of spell may Stun the target."
+          ]
+        },
+        {
+          "name": "Air",
+          "atk_bonus": 2,
+          "def_bonus": 1,
+          "spd_bonus": 3,
+          "pattern": "Corner Lateral",
+          "traits": [
+            "Gust: This kind of spell may reduce the target\\"
+          ]
+        },
+        {
+          "name": "Fire",
+          "atk_bonus": 3,
+          "def_bonus": 2,
+          "spd_bonus": 1,
+          "pattern": "Spread",
+          "traits": [
+            "Flare: This kind of spell may Burn the target."
+          ]
+        },
+        {
+          "name": "Water",
+          "atk_bonus": 2,
+          "def_bonus": 3,
+          "spd_bonus": 1,
+          "pattern": "Corner Diagonal",
+          "traits": [
+            "Hydro: This kind of spell may reduce the target\\"
+          ]
+        },
+        {
+          "name": "Light",
+          "atk_bonus": 3,
+          "def_bonus": 3,
+          "spd_bonus": 0,
+          "pattern": "Lateral",
+          "traits": [
+            "Cure: This kind of spell may restore a target\\"
+          ]
+        },
+        {
+          "name": "Dark",
+          "atk_bonus": 2,
+          "def_bonus": 0,
+          "spd_bonus": 4,
+          "pattern": "Diagonal",
+          "traits": [
+            "Weaken: This kind of spell may take MP from a target."
+          ]
+        }
+      ],
+      "controlled": "WIS+KNO"
+    },
+    "Step": {
+      "skills": [
+        {
+          "name": "Flight",
+          "atk_bonus": 0,
+          "def_bonus": 2,
+          "spd_bonus": 4,
+          "pattern": "Omni",
+          "traits": [
+            "Soaring: This kind of step prevents the caster from being targeted without reach."
+          ]
+        },
+        {
+          "name": "Float",
+          "atk_bonus": 2,
+          "def_bonus": 3,
+          "spd_bonus": 1,
+          "pattern": "Diagonal",
+          "traits": [
+            "Slide: This kind of step allows the caster to move long distances through the air."
+          ]
+        },
+        {
+          "name": "Dash",
+          "atk_bonus": 3,
+          "def_bonus": 1,
+          "spd_bonus": 2,
+          "pattern": "Lateral",
+          "traits": [
+            "Charge: This kind of step allows the caster to trample targets."
+          ]
+        },
+        {
+          "name": "Acrobat",
+          "atk_bonus": 3,
+          "def_bonus": 3,
+          "spd_bonus": 0,
+          "pattern": "Corner Diagonal",
+          "traits": [
+            "Free Run: This kind of step allows the caster to reach distant targets."
+          ]
+        },
+        {
+          "name": "Warp",
+          "atk_bonus": 0,
+          "def_bonus": 1,
+          "spd_bonus": 5,
+          "pattern": "Area",
+          "traits": [
+            "Teleport: This kind of step allows the caster to phase through walls."
+          ]
+        },
+        {
+          "name": "Evade",
+          "atk_bonus": 1,
+          "def_bonus": 4,
+          "spd_bonus": 1,
+          "pattern": "Corner Lateral",
+          "traits": [
+            "Elusive: This kind of step allows the caster to increase their SPD while dodging."
+          ]
+        }
+      ],
+      "controlled": "UND+BEU"
+    },
+    "Special": {
+      "skills": [
+        {
+          "name": "White",
+          "atk_bonus": 1,
+          "def_bonus": 3,
+          "spd_bonus": 2,
+          "pattern": "Lateral",
+          "traits": [
+            "Barrier: This kind of power can be used to prevent an amount of damage."
+          ]
+        },
+        {
+          "name": "Blue",
+          "atk_bonus": 2,
+          "def_bonus": 3,
+          "spd_bonus": 1,
+          "pattern": "Diagonal",
+          "traits": [
+            "Control: This kind of power can be used to command lower level spirits."
+          ]
+        },
+        {
+          "name": "Black",
+          "atk_bonus": 3,
+          "def_bonus": 1,
+          "spd_bonus": 2,
+          "pattern": "Area",
+          "traits": [
+            "Venom: This kind of power can be used to poison a target."
+          ]
+        },
+        {
+          "name": "Red",
+          "atk_bonus": 4,
+          "def_bonus": 0,
+          "spd_bonus": 2,
+          "pattern": "Spread",
+          "traits": [
+            "Blast: This kind of power can be used to increase damage or counters."
+          ]
+        },
+        {
+          "name": "Green",
+          "atk_bonus": 3,
+          "def_bonus": 3,
+          "spd_bonus": 0,
+          "pattern": "Corner Lateral",
+          "traits": [
+            "Growth: This kind of power may be used to restore a target\\"
+          ]
+        },
+        {
+          "name": "None",
+          "atk_bonus": 2,
+          "def_bonus": 2,
+          "spd_bonus": 2,
+          "pattern": "Omni",
+          "traits": [
+            "Token: This kind of power may spawn a number of tokens."
+          ]
+        }
+      ],
+      "controlled": "SPL+MNF"
+    },
+    "Trance": {
+      "skills": [
+        {
+          "name": "Overdrive",
+          "atk_bonus": 3,
+          "def_bonus": 3,
+          "spd_bonus": 0,
+          "pattern": "Lateral",
+          "traits": [
+            "Release: This kind of trance may multiply the combat stats of the caster until their next turn."
+          ]
+        },
+        {
+          "name": "Stages",
+          "atk_bonus": 1,
+          "def_bonus": 3,
+          "spd_bonus": 2,
+          "pattern": "Diagonal",
+          "traits": [
+            "Boost: This kind of trance may increase the caster\\"
+          ]
+        },
+        {
+          "name": "Duration",
+          "atk_bonus": 2,
+          "def_bonus": 0,
+          "spd_bonus": 4,
+          "pattern": "Corner Diagonal",
+          "traits": [
+            "Persist: This kind of trance doesn\\"
+          ]
+        },
+        {
+          "name": "Aura",
+          "atk_bonus": 4,
+          "def_bonus": 2,
+          "spd_bonus": 0,
+          "pattern": "Area",
+          "traits": [
+            "Overwhelm: This kind of trance may inflict fear on nearby spirits."
+          ]
+        },
+        {
+          "name": "Armor",
+          "atk_bonus": 0,
+          "def_bonus": 5,
+          "spd_bonus": 1,
+          "pattern": "Corner Lateral",
+          "traits": [
+            "Protect: This kind of trance may be cast separate from the caster as a token."
+          ]
+        },
+        {
+          "name": "Morph",
+          "atk_bonus": 4,
+          "def_bonus": 1,
+          "spd_bonus": 1,
+          "pattern": "Omni",
+          "traits": [
+            "Shift: This kind of trance may change, and/or enhance, the caster\\"
+          ]
+        }
+      ],
+      "controlled": "DIV+SEX"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mode": "normal",
+  "cpu_threshold": 70,
+  "memory_threshold": 80,
+  "resource_budget": 0.8,
+  "last_check": "2026-06-09T16:47:24.926675",
+  "cpu_load": 50,
+  "memory_load": 50
+}

@@ -1,0 +1,1605 @@
+{
+  "npcs": [
+    {
+      "id": "npc_000001",
+      "name": "Patson",
+      "type": "Human",
+      "spirit": "Warrior",
+      "animal": "Dog",
+      "star": "Leo",
+      "biorhythms": {
+        "MNF": 11,
+        "SPL": 12,
+        "BEU": 6,
+        "STR": 11,
+        "FND": 10,
+        "KNO": 8,
+        "UND": 6,
+        "WIS": 10,
+        "VIT": 7,
+        "SEX": 4,
+        "DIV": 9,
+        "EGO": 13
+      },
+      "thoughts": {
+        "Environment": -3,
+        "Emotion": -3,
+        "Subconscious": 6,
+        "Conscious": 7,
+        "Abstraction": -2,
+        "Perception": -4,
+        "State": 0.16666666666666666
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "setup_shop",
+        "afternoon": "sell",
+        "evening": "count_profits",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 110,
+        "ATK": 21,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000002",
+      "name": "Featherflight",
+      "type": "Avious",
+      "spirit": "Spell",
+      "animal": "Tiger",
+      "star": "Scorpio",
+      "biorhythms": {
+        "MNF": 15,
+        "SPL": 14,
+        "BEU": 11,
+        "STR": 15,
+        "FND": 15,
+        "KNO": 8,
+        "UND": 11,
+        "WIS": 12,
+        "VIT": 16,
+        "SEX": 11,
+        "DIV": 10,
+        "EGO": 12
+      },
+      "thoughts": {
+        "Environment": 3,
+        "Emotion": 1,
+        "Subconscious": 3,
+        "Conscious": 4,
+        "Abstraction": -4,
+        "Perception": 1,
+        "State": 1.3333333333333333
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "research",
+        "afternoon": "teach",
+        "evening": "write",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 22,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 58
+      }
+    },
+    {
+      "id": "npc_000003",
+      "name": "Patkeeper",
+      "type": "Reptoid",
+      "spirit": "Beast",
+      "animal": "Dragon",
+      "star": "Scorpio",
+      "biorhythms": {
+        "MNF": 7,
+        "SPL": 11,
+        "BEU": 6,
+        "STR": 9,
+        "FND": 10,
+        "KNO": 11,
+        "UND": 6,
+        "WIS": 7,
+        "VIT": 7,
+        "SEX": 15,
+        "DIV": 12,
+        "EGO": 9
+      },
+      "thoughts": {
+        "Environment": 1,
+        "Emotion": -6,
+        "Subconscious": 5,
+        "Conscious": -8,
+        "Abstraction": 4,
+        "Perception": -2,
+        "State": -1.0
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "research",
+        "afternoon": "teach",
+        "evening": "write",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 109,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 17,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000004",
+      "name": "Janesmith",
+      "type": "Human",
+      "spirit": "Fairy",
+      "animal": "Dog",
+      "star": "Sagittarius",
+      "biorhythms": {
+        "MNF": 6,
+        "SPL": 8,
+        "BEU": 6,
+        "STR": 5,
+        "FND": 5,
+        "KNO": 3,
+        "UND": 14,
+        "WIS": 13,
+        "VIT": 12,
+        "SEX": 10,
+        "DIV": 11,
+        "EGO": 8
+      },
+      "thoughts": {
+        "Environment": -3,
+        "Emotion": -5,
+        "Subconscious": -6,
+        "Conscious": -4,
+        "Abstraction": -10,
+        "Perception": 7,
+        "State": -3.5
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "wander",
+        "afternoon": "socialize",
+        "evening": "relax",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000005",
+      "name": "Pyroclaw",
+      "type": "Dragon",
+      "spirit": "Beast",
+      "animal": "Ox",
+      "star": "Scorpio",
+      "biorhythms": {
+        "MNF": 13,
+        "SPL": 8,
+        "BEU": 13,
+        "STR": 12,
+        "FND": 6,
+        "KNO": 12,
+        "UND": 14,
+        "WIS": 14,
+        "VIT": 12,
+        "SEX": 10,
+        "DIV": 12,
+        "EGO": 11
+      },
+      "thoughts": {
+        "Environment": -5,
+        "Emotion": 1,
+        "Subconscious": -6,
+        "Conscious": 3,
+        "Abstraction": -2,
+        "Perception": 0,
+        "State": -1.5
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "train",
+        "afternoon": "patrol",
+        "evening": "tavern",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 112,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 23,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000006",
+      "name": "Janeson",
+      "type": "Geneshan",
+      "spirit": "Holy",
+      "animal": "Ox",
+      "star": "Aries",
+      "biorhythms": {
+        "MNF": 8,
+        "SPL": 6,
+        "BEU": 12,
+        "STR": 5,
+        "FND": 8,
+        "KNO": 10,
+        "UND": 11,
+        "WIS": 6,
+        "VIT": 5,
+        "SEX": 5,
+        "DIV": 14,
+        "EGO": 15
+      },
+      "thoughts": {
+        "Environment": -7,
+        "Emotion": -2,
+        "Subconscious": -5,
+        "Conscious": 3,
+        "Abstraction": 4,
+        "Perception": 0,
+        "State": -1.1666666666666667
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "research",
+        "afternoon": "teach",
+        "evening": "write",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 15,
+        "SPD": 10,
+        "MP": 64
+      }
+    },
+    {
+      "id": "npc_000007",
+      "name": "Janeson",
+      "type": "Reptoid",
+      "spirit": "Aqua",
+      "animal": "Rooster",
+      "star": "Taurus",
+      "biorhythms": {
+        "MNF": 9,
+        "SPL": 10,
+        "BEU": 3,
+        "STR": 8,
+        "FND": 13,
+        "KNO": 4,
+        "UND": 7,
+        "WIS": 12,
+        "VIT": 6,
+        "SEX": 10,
+        "DIV": 15,
+        "EGO": 5
+      },
+      "thoughts": {
+        "Environment": 8,
+        "Emotion": -12,
+        "Subconscious": 3,
+        "Conscious": -1,
+        "Abstraction": -8,
+        "Perception": -2,
+        "State": -2.0
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "train",
+        "afternoon": "patrol",
+        "evening": "tavern",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000008",
+      "name": "Renewash",
+      "type": "Phoenix",
+      "spirit": "Thunder",
+      "animal": "Rooster",
+      "star": "Leo",
+      "biorhythms": {
+        "MNF": 9,
+        "SPL": 10,
+        "BEU": 7,
+        "STR": 6,
+        "FND": 12,
+        "KNO": 5,
+        "UND": 13,
+        "WIS": 10,
+        "VIT": 12,
+        "SEX": 10,
+        "DIV": 5,
+        "EGO": 11
+      },
+      "thoughts": {
+        "Environment": 1,
+        "Emotion": 2,
+        "Subconscious": -3,
+        "Conscious": -1,
+        "Abstraction": -5,
+        "Perception": 6,
+        "State": 0.0
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "train",
+        "afternoon": "patrol",
+        "evening": "tavern",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000009",
+      "name": "Aergale",
+      "type": "Avious",
+      "spirit": "Spell",
+      "animal": "Boar",
+      "star": "Libra",
+      "biorhythms": {
+        "MNF": 9,
+        "SPL": 16,
+        "BEU": 7,
+        "STR": 13,
+        "FND": 11,
+        "KNO": 11,
+        "UND": 16,
+        "WIS": 8,
+        "VIT": 14,
+        "SEX": 14,
+        "DIV": 8,
+        "EGO": 8
+      },
+      "thoughts": {
+        "Environment": 3,
+        "Emotion": -1,
+        "Subconscious": 0,
+        "Conscious": -5,
+        "Abstraction": 3,
+        "Perception": 1,
+        "State": 0.16666666666666666
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "tend_crops",
+        "afternoon": "harvest",
+        "evening": "rest",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 18,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 61
+      }
+    },
+    {
+      "id": "npc_000010",
+      "name": "Alexdaughter",
+      "type": "Iniris",
+      "spirit": "Fiend",
+      "animal": "Snake",
+      "star": "Gemini",
+      "biorhythms": {
+        "MNF": 13,
+        "SPL": 8,
+        "BEU": 11,
+        "STR": 4,
+        "FND": 3,
+        "KNO": 6,
+        "UND": 4,
+        "WIS": 6,
+        "VIT": 6,
+        "SEX": 8,
+        "DIV": 4,
+        "EGO": 6
+      },
+      "thoughts": {
+        "Environment": -3,
+        "Emotion": 7,
+        "Subconscious": 4,
+        "Conscious": 5,
+        "Abstraction": 0,
+        "Perception": 2,
+        "State": 2.5
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "wander",
+        "afternoon": "socialize",
+        "evening": "relax",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000011",
+      "name": "Chriswalker",
+      "type": "Wolfin",
+      "spirit": "Psychic",
+      "animal": "Horse",
+      "star": "Aquarius",
+      "biorhythms": {
+        "MNF": 11,
+        "SPL": 11,
+        "BEU": 9,
+        "STR": 12,
+        "FND": 9,
+        "KNO": 9,
+        "UND": 16,
+        "WIS": 11,
+        "VIT": 12,
+        "SEX": 12,
+        "DIV": 16,
+        "EGO": 14
+      },
+      "thoughts": {
+        "Environment": -5,
+        "Emotion": -7,
+        "Subconscious": -5,
+        "Conscious": -1,
+        "Abstraction": -2,
+        "Perception": 0,
+        "State": -3.3333333333333335
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "tend_crops",
+        "afternoon": "harvest",
+        "evening": "rest",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 21,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 66
+      }
+    },
+    {
+      "id": "npc_000012",
+      "name": "Featherbreeze",
+      "type": "Avious",
+      "spirit": "Fairy",
+      "animal": "Ox",
+      "star": "Cancer",
+      "biorhythms": {
+        "MNF": 4,
+        "SPL": 14,
+        "BEU": 9,
+        "STR": 6,
+        "FND": 14,
+        "KNO": 14,
+        "UND": 11,
+        "WIS": 10,
+        "VIT": 11,
+        "SEX": 9,
+        "DIV": 12,
+        "EGO": 9
+      },
+      "thoughts": {
+        "Environment": 5,
+        "Emotion": -3,
+        "Subconscious": 3,
+        "Conscious": -5,
+        "Abstraction": 4,
+        "Perception": 5,
+        "State": 1.5
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "train",
+        "afternoon": "patrol",
+        "evening": "tavern",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000013",
+      "name": "Renewash",
+      "type": "Phoenix",
+      "spirit": "Fiend",
+      "animal": "Snake",
+      "star": "Taurus",
+      "biorhythms": {
+        "MNF": 5,
+        "SPL": 9,
+        "BEU": 7,
+        "STR": 6,
+        "FND": 6,
+        "KNO": 8,
+        "UND": 13,
+        "WIS": 14,
+        "VIT": 10,
+        "SEX": 11,
+        "DIV": 11,
+        "EGO": 7
+      },
+      "thoughts": {
+        "Environment": -1,
+        "Emotion": -4,
+        "Subconscious": -4,
+        "Conscious": -6,
+        "Abstraction": -6,
+        "Perception": 4,
+        "State": -2.8333333333333335
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "setup_shop",
+        "afternoon": "sell",
+        "evening": "count_profits",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000014",
+      "name": "Ashrise",
+      "type": "Phoenix",
+      "spirit": "Beast",
+      "animal": "Monkey",
+      "star": "Taurus",
+      "biorhythms": {
+        "MNF": 14,
+        "SPL": 9,
+        "BEU": 14,
+        "STR": 12,
+        "FND": 16,
+        "KNO": 10,
+        "UND": 6,
+        "WIS": 7,
+        "VIT": 12,
+        "SEX": 6,
+        "DIV": 7,
+        "EGO": 13
+      },
+      "thoughts": {
+        "Environment": 3,
+        "Emotion": 7,
+        "Subconscious": 3,
+        "Conscious": 8,
+        "Abstraction": 3,
+        "Perception": 0,
+        "State": 4.0
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "setup_shop",
+        "afternoon": "sell",
+        "evening": "count_profits",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 112,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 24,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000015",
+      "name": "Alexdaughter",
+      "type": "Human",
+      "spirit": "Undead",
+      "animal": "Ox",
+      "star": "Taurus",
+      "biorhythms": {
+        "MNF": 11,
+        "SPL": 11,
+        "BEU": 9,
+        "STR": 14,
+        "FND": 12,
+        "KNO": 14,
+        "UND": 7,
+        "WIS": 10,
+        "VIT": 10,
+        "SEX": 12,
+        "DIV": 6,
+        "EGO": 6
+      },
+      "thoughts": {
+        "Environment": 6,
+        "Emotion": 3,
+        "Subconscious": 4,
+        "Conscious": -1,
+        "Abstraction": 4,
+        "Perception": -4,
+        "State": 2.0
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "tend_crops",
+        "afternoon": "harvest",
+        "evening": "rest",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000016",
+      "name": "Patwalker",
+      "type": "Merr",
+      "spirit": "Fiend",
+      "animal": "Horse",
+      "star": "Pisces",
+      "biorhythms": {
+        "MNF": 16,
+        "SPL": 13,
+        "BEU": 14,
+        "STR": 15,
+        "FND": 13,
+        "KNO": 9,
+        "UND": 11,
+        "WIS": 15,
+        "VIT": 9,
+        "SEX": 10,
+        "DIV": 13,
+        "EGO": 8
+      },
+      "thoughts": {
+        "Environment": 5,
+        "Emotion": 1,
+        "Subconscious": 2,
+        "Conscious": 6,
+        "Abstraction": -6,
+        "Perception": -6,
+        "State": 0.3333333333333333
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "tend_crops",
+        "afternoon": "harvest",
+        "evening": "rest",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000017",
+      "name": "Samwalker",
+      "type": "Iniris",
+      "spirit": "Aqua",
+      "animal": "Horse",
+      "star": "Taurus",
+      "biorhythms": {
+        "MNF": 10,
+        "SPL": 15,
+        "BEU": 13,
+        "STR": 6,
+        "FND": 11,
+        "KNO": 16,
+        "UND": 6,
+        "WIS": 12,
+        "VIT": 15,
+        "SEX": 9,
+        "DIV": 9,
+        "EGO": 7
+      },
+      "thoughts": {
+        "Environment": 4,
+        "Emotion": 4,
+        "Subconscious": 9,
+        "Conscious": 1,
+        "Abstraction": 4,
+        "Perception": 9,
+        "State": 5.166666666666667
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "train",
+        "afternoon": "patrol",
+        "evening": "tavern",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000018",
+      "name": "Johnsmith",
+      "type": "Merr",
+      "spirit": "Plant",
+      "animal": "Snake",
+      "star": "Cancer",
+      "biorhythms": {
+        "MNF": 8,
+        "SPL": 4,
+        "BEU": 8,
+        "STR": 6,
+        "FND": 8,
+        "KNO": 12,
+        "UND": 3,
+        "WIS": 11,
+        "VIT": 13,
+        "SEX": 3,
+        "DIV": 13,
+        "EGO": 13
+      },
+      "thoughts": {
+        "Environment": -5,
+        "Emotion": -5,
+        "Subconscious": 1,
+        "Conscious": 5,
+        "Abstraction": 1,
+        "Perception": 7,
+        "State": 0.6666666666666666
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "wander",
+        "afternoon": "socialize",
+        "evening": "relax",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000019",
+      "name": "Skygale",
+      "type": "Avious",
+      "spirit": "Warrior",
+      "animal": "Monkey",
+      "star": "Gemini",
+      "biorhythms": {
+        "MNF": 13,
+        "SPL": 13,
+        "BEU": 11,
+        "STR": 6,
+        "FND": 12,
+        "KNO": 14,
+        "UND": 7,
+        "WIS": 7,
+        "VIT": 9,
+        "SEX": 8,
+        "DIV": 6,
+        "EGO": 4
+      },
+      "thoughts": {
+        "Environment": 8,
+        "Emotion": 5,
+        "Subconscious": 6,
+        "Conscious": 5,
+        "Abstraction": 7,
+        "Perception": 3,
+        "State": 5.666666666666667
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "tend_crops",
+        "afternoon": "harvest",
+        "evening": "rest",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 112,
+        "ATK": 16,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000020",
+      "name": "Ignisfire",
+      "type": "Dragon",
+      "spirit": "Warrior",
+      "animal": "Goat",
+      "star": "Pisces",
+      "biorhythms": {
+        "MNF": 8,
+        "SPL": 9,
+        "BEU": 12,
+        "STR": 16,
+        "FND": 9,
+        "KNO": 8,
+        "UND": 8,
+        "WIS": 16,
+        "VIT": 9,
+        "SEX": 16,
+        "DIV": 16,
+        "EGO": 14
+      },
+      "thoughts": {
+        "Environment": -5,
+        "Emotion": -4,
+        "Subconscious": 1,
+        "Conscious": -8,
+        "Abstraction": -8,
+        "Perception": -7,
+        "State": -5.166666666666667
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "wander",
+        "afternoon": "socialize",
+        "evening": "relax",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 109,
+        "ATK": 26,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000021",
+      "name": "Alexwalker",
+      "type": "Merr",
+      "spirit": "Pyro",
+      "animal": "Goat",
+      "star": "Libra",
+      "biorhythms": {
+        "MNF": 14,
+        "SPL": 12,
+        "BEU": 10,
+        "STR": 11,
+        "FND": 12,
+        "KNO": 12,
+        "UND": 17,
+        "WIS": 13,
+        "VIT": 11,
+        "SEX": 12,
+        "DIV": 8,
+        "EGO": 7
+      },
+      "thoughts": {
+        "Environment": 5,
+        "Emotion": 2,
+        "Subconscious": -5,
+        "Conscious": 2,
+        "Abstraction": -1,
+        "Perception": 0,
+        "State": 0.5
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "research",
+        "afternoon": "teach",
+        "evening": "write",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 33,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000022",
+      "name": "Skysoar",
+      "type": "Avious",
+      "spirit": "Holy",
+      "animal": "Rooster",
+      "star": "Scorpio",
+      "biorhythms": {
+        "MNF": 5,
+        "SPL": 3,
+        "BEU": 9,
+        "STR": 8,
+        "FND": 8,
+        "KNO": 3,
+        "UND": 14,
+        "WIS": 13,
+        "VIT": 10,
+        "SEX": 12,
+        "DIV": 12,
+        "EGO": 12
+      },
+      "thoughts": {
+        "Environment": -4,
+        "Emotion": -3,
+        "Subconscious": -11,
+        "Conscious": -7,
+        "Abstraction": -10,
+        "Perception": 2,
+        "State": -5.5
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "wander",
+        "afternoon": "socialize",
+        "evening": "relax",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 20,
+        "SPD": 10,
+        "MP": 62
+      }
+    },
+    {
+      "id": "npc_000023",
+      "name": "Johnsmith",
+      "type": "Geneshan",
+      "spirit": "Warrior",
+      "animal": "Boar",
+      "star": "Gemini",
+      "biorhythms": {
+        "MNF": 17,
+        "SPL": 7,
+        "BEU": 13,
+        "STR": 13,
+        "FND": 14,
+        "KNO": 10,
+        "UND": 12,
+        "WIS": 14,
+        "VIT": 7,
+        "SEX": 5,
+        "DIV": 14,
+        "EGO": 14
+      },
+      "thoughts": {
+        "Environment": 0,
+        "Emotion": -1,
+        "Subconscious": -5,
+        "Conscious": 12,
+        "Abstraction": -4,
+        "Perception": -6,
+        "State": -0.6666666666666666
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "tend_crops",
+        "afternoon": "harvest",
+        "evening": "rest",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 114,
+        "ATK": 23,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000024",
+      "name": "Firerebirth",
+      "type": "Phoenix",
+      "spirit": "Warrior",
+      "animal": "Dragon",
+      "star": "Scorpio",
+      "biorhythms": {
+        "MNF": 7,
+        "SPL": 11,
+        "BEU": 6,
+        "STR": 9,
+        "FND": 10,
+        "KNO": 11,
+        "UND": 6,
+        "WIS": 7,
+        "VIT": 7,
+        "SEX": 15,
+        "DIV": 12,
+        "EGO": 9
+      },
+      "thoughts": {
+        "Environment": 1,
+        "Emotion": -6,
+        "Subconscious": 5,
+        "Conscious": -8,
+        "Abstraction": 4,
+        "Perception": -2,
+        "State": -1.0
+      },
+      "state": "Idle",
+      "goal": "idle",
+      "schedule": {
+        "morning": "train",
+        "afternoon": "patrol",
+        "evening": "tavern",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 110,
+        "ATK": 19,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000025",
+      "name": "Janewalker",
+      "type": "Human",
+      "spirit": "Aqua",
+      "animal": "Dog",
+      "star": "Pisces",
+      "biorhythms": {
+        "MNF": 6,
+        "SPL": 8,
+        "BEU": 3,
+        "STR": 8,
+        "FND": 7,
+        "KNO": 12,
+        "UND": 11,
+        "WIS": 7,
+        "VIT": 11,
+        "SEX": 12,
+        "DIV": 12,
+        "EGO": 7
+      },
+      "thoughts": {
+        "Environment": 0,
+        "Emotion": -9,
+        "Subconscious": -3,
+        "Conscious": -6,
+        "Abstraction": 5,
+        "Perception": 3,
+        "State": -1.6666666666666667
+      },
+      "state": "Idle",
+      "goal": "train",
+      "schedule": {
+        "morning": "train",
+        "afternoon": "patrol",
+        "evening": "tavern",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000026",
+      "name": "Chriswalker",
+      "type": "Merr",
+      "spirit": "Plant",
+      "animal": "Monkey",
+      "star": "Taurus",
+      "biorhythms": {
+        "MNF": 14,
+        "SPL": 9,
+        "BEU": 14,
+        "STR": 12,
+        "FND": 16,
+        "KNO": 10,
+        "UND": 6,
+        "WIS": 7,
+        "VIT": 12,
+        "SEX": 6,
+        "DIV": 7,
+        "EGO": 13
+      },
+      "thoughts": {
+        "Environment": 3,
+        "Emotion": 7,
+        "Subconscious": 3,
+        "Conscious": 8,
+        "Abstraction": 3,
+        "Perception": 0,
+        "State": 4.0
+      },
+      "state": "Idle",
+      "goal": "train",
+      "schedule": {
+        "morning": "train",
+        "afternoon": "patrol",
+        "evening": "tavern",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000027",
+      "name": "Riseash",
+      "type": "Phoenix",
+      "spirit": "Beast",
+      "animal": "Snake",
+      "star": "Scorpio",
+      "biorhythms": {
+        "MNF": 5,
+        "SPL": 13,
+        "BEU": 11,
+        "STR": 10,
+        "FND": 8,
+        "KNO": 10,
+        "UND": 15,
+        "WIS": 16,
+        "VIT": 10,
+        "SEX": 12,
+        "DIV": 9,
+        "EGO": 8
+      },
+      "thoughts": {
+        "Environment": 0,
+        "Emotion": 2,
+        "Subconscious": -2,
+        "Conscious": -7,
+        "Abstraction": -6,
+        "Perception": 0,
+        "State": -2.1666666666666665
+      },
+      "state": "Idle",
+      "goal": "wander",
+      "schedule": {
+        "morning": "wander",
+        "afternoon": "socialize",
+        "evening": "relax",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 110,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 15,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000028",
+      "name": "Janewalker",
+      "type": "Wolfin",
+      "spirit": "Psychic",
+      "animal": "Rabbit",
+      "star": "Libra",
+      "biorhythms": {
+        "MNF": 10,
+        "SPL": 6,
+        "BEU": 10,
+        "STR": 8,
+        "FND": 10,
+        "KNO": 14,
+        "UND": 7,
+        "WIS": 15,
+        "VIT": 17,
+        "SEX": 7,
+        "DIV": 17,
+        "EGO": 17
+      },
+      "thoughts": {
+        "Environment": -7,
+        "Emotion": -7,
+        "Subconscious": -1,
+        "Conscious": 3,
+        "Abstraction": -1,
+        "Perception": 9,
+        "State": -0.6666666666666666
+      },
+      "state": "Idle",
+      "goal": "setup_shop",
+      "schedule": {
+        "morning": "setup_shop",
+        "afternoon": "sell",
+        "evening": "count_profits",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 25,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 57
+      }
+    },
+    {
+      "id": "npc_000029",
+      "name": "Samson",
+      "type": "Wolfin",
+      "spirit": "Thunder",
+      "animal": "Dragon",
+      "star": "Leo",
+      "biorhythms": {
+        "MNF": 7,
+        "SPL": 7,
+        "BEU": 11,
+        "STR": 8,
+        "FND": 7,
+        "KNO": 15,
+        "UND": 10,
+        "WIS": 10,
+        "VIT": 13,
+        "SEX": 10,
+        "DIV": 6,
+        "EGO": 5
+      },
+      "thoughts": {
+        "Environment": 2,
+        "Emotion": 5,
+        "Subconscious": -3,
+        "Conscious": -3,
+        "Abstraction": 5,
+        "Perception": 5,
+        "State": 1.8333333333333333
+      },
+      "state": "Idle",
+      "goal": "wander",
+      "schedule": {
+        "morning": "wander",
+        "afternoon": "socialize",
+        "evening": "relax",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000030",
+      "name": "Patsmith",
+      "type": "Iniris",
+      "spirit": "Warrior",
+      "animal": "Dog",
+      "star": "Libra",
+      "biorhythms": {
+        "MNF": 5,
+        "SPL": 13,
+        "BEU": 10,
+        "STR": 8,
+        "FND": 6,
+        "KNO": 12,
+        "UND": 15,
+        "WIS": 11,
+        "VIT": 11,
+        "SEX": 7,
+        "DIV": 11,
+        "EGO": 7
+      },
+      "thoughts": {
+        "Environment": -1,
+        "Emotion": -1,
+        "Subconscious": -2,
+        "Conscious": -2,
+        "Abstraction": 1,
+        "Perception": 3,
+        "State": -0.3333333333333333
+      },
+      "state": "Idle",
+      "goal": "setup_shop",
+      "schedule": {
+        "morning": "setup_shop",
+        "afternoon": "sell",
+        "evening": "count_profits",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 106,
+        "ATK": 18,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000031",
+      "name": "Samson",
+      "type": "Human",
+      "spirit": "Plant",
+      "animal": "Dragon",
+      "star": "Libra",
+      "biorhythms": {
+        "MNF": 15,
+        "SPL": 14,
+        "BEU": 7,
+        "STR": 13,
+        "FND": 12,
+        "KNO": 13,
+        "UND": 8,
+        "WIS": 8,
+        "VIT": 15,
+        "SEX": 13,
+        "DIV": 8,
+        "EGO": 13
+      },
+      "thoughts": {
+        "Environment": -1,
+        "Emotion": -1,
+        "Subconscious": 6,
+        "Conscious": 2,
+        "Abstraction": 5,
+        "Perception": 2,
+        "State": 2.1666666666666665
+      },
+      "state": "Idle",
+      "goal": "research",
+      "schedule": {
+        "morning": "research",
+        "afternoon": "teach",
+        "evening": "write",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    },
+    {
+      "id": "npc_000032",
+      "name": "Riserebirth",
+      "type": "Phoenix",
+      "spirit": "Undead",
+      "animal": "Horse",
+      "star": "Virgo",
+      "biorhythms": {
+        "MNF": 13,
+        "SPL": 8,
+        "BEU": 10,
+        "STR": 7,
+        "FND": 8,
+        "KNO": 12,
+        "UND": 15,
+        "WIS": 14,
+        "VIT": 14,
+        "SEX": 8,
+        "DIV": 9,
+        "EGO": 6
+      },
+      "thoughts": {
+        "Environment": 2,
+        "Emotion": 1,
+        "Subconscious": -7,
+        "Conscious": 5,
+        "Abstraction": -2,
+        "Perception": 7,
+        "State": 1.0
+      },
+      "state": "Idle",
+      "goal": "research",
+      "schedule": {
+        "morning": "research",
+        "afternoon": "teach",
+        "evening": "write",
+        "night": "sleep"
+      },
+      "relationships": {},
+      "inventory": [],
+      "level": 1,
+      "tier": "NoviceI",
+      "combat_stats": {
+        "HP": 100,
+        "ATK": 10,
+        "DEF": 10,
+        "SPD": 10,
+        "MP": 50
+      }
+    }
+  ],
+  "last_saved": "2026-06-09T16:44:00.796138"
+}

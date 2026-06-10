@@ -1,0 +1,1898 @@
+{
+  "player_id": "stress_test",
+  "playthrough_start": "2026-06-09T00:56:24.328398",
+  "current_week": 30,
+  "npcs": {},
+  "factions": {},
+  "towns": {},
+  "worlds": {},
+  "systems": {},
+  "narratives": {
+    "evt_1_Establish Archive": {
+      "entity_type": "event",
+      "text": "In week 1, Faction Establish Archive.",
+      "generated_at": "2026-06-09T00:56:24.334386",
+      "context": {
+        "week": 1
+      },
+      "view_count": 0
+    },
+    "evt_1_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 1, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:24.336018",
+      "context": {
+        "week": 1
+      },
+      "view_count": 0
+    },
+    "evt_1_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 1, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:24.337824",
+      "context": {
+        "week": 1
+      },
+      "view_count": 0
+    },
+    "evt_2_Claim Territory": {
+      "entity_type": "event",
+      "text": "In week 2, Faction Claim Territory.",
+      "generated_at": "2026-06-09T00:56:24.340316",
+      "context": {
+        "week": 2
+      },
+      "view_count": 0
+    },
+    "evt_2_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 2, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:24.342846",
+      "context": {
+        "week": 2
+      },
+      "view_count": 0
+    },
+    "evt_2_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 2, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:24.345830",
+      "context": {
+        "week": 2
+      },
+      "view_count": 0
+    },
+    "evt_3_Steal Resources": {
+      "entity_type": "event",
+      "text": "In week 3, Faction Steal Resources.",
+      "generated_at": "2026-06-09T00:56:24.349353",
+      "context": {
+        "week": 3
+      },
+      "view_count": 0
+    },
+    "evt_3_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 3, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:24.352703",
+      "context": {
+        "week": 3
+      },
+      "view_count": 0
+    },
+    "evt_3_Stockpile Resources": {
+      "entity_type": "event",
+      "text": "In week 3, Faction Stockpile Resources.",
+      "generated_at": "2026-06-09T00:56:24.356121",
+      "context": {
+        "week": 3
+      },
+      "view_count": 0
+    },
+    "evt_3_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 3, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:24.360712",
+      "context": {
+        "week": 3
+      },
+      "view_count": 0
+    },
+    "evt_4_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 4, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:24.365470",
+      "context": {
+        "week": 4
+      },
+      "view_count": 0
+    },
+    "evt_4_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 4, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:24.370212",
+      "context": {
+        "week": 4
+      },
+      "view_count": 0
+    },
+    "evt_4_Establish Archive": {
+      "entity_type": "event",
+      "text": "In week 4, Faction Establish Archive.",
+      "generated_at": "2026-06-09T00:56:24.375186",
+      "context": {
+        "week": 4
+      },
+      "view_count": 0
+    },
+    "evt_4_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 4, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:24.380518",
+      "context": {
+        "week": 4
+      },
+      "view_count": 0
+    },
+    "evt_5_Discover Technique": {
+      "entity_type": "event",
+      "text": "In week 5, Faction Discover Technique.",
+      "generated_at": "2026-06-09T00:56:24.386873",
+      "context": {
+        "week": 5
+      },
+      "view_count": 0
+    },
+    "evt_5_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 5, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:24.392860",
+      "context": {
+        "week": 5
+      },
+      "view_count": 0
+    },
+    "evt_5_Establish Archive": {
+      "entity_type": "event",
+      "text": "In week 5, Faction Establish Archive.",
+      "generated_at": "2026-06-09T00:56:24.399413",
+      "context": {
+        "week": 5
+      },
+      "view_count": 0
+    },
+    "evt_5_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 5, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:24.406036",
+      "context": {
+        "week": 5
+      },
+      "view_count": 0
+    },
+    "evt_6_Build Stronghold": {
+      "entity_type": "event",
+      "text": "In week 6, Faction Build Stronghold.",
+      "generated_at": "2026-06-09T00:56:24.413480",
+      "context": {
+        "week": 6
+      },
+      "view_count": 0
+    },
+    "evt_6_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 6, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:24.421074",
+      "context": {
+        "week": 6
+      },
+      "view_count": 0
+    },
+    "evt_6_Defend Borders": {
+      "entity_type": "event",
+      "text": "In week 6, Faction Defend Borders.",
+      "generated_at": "2026-06-09T00:56:24.428683",
+      "context": {
+        "week": 6
+      },
+      "view_count": 0
+    },
+    "evt_7_Raid Outpost": {
+      "entity_type": "event",
+      "text": "In week 7, Faction Raid Outpost.",
+      "generated_at": "2026-06-09T00:56:24.436599",
+      "context": {
+        "week": 7
+      },
+      "view_count": 0
+    },
+    "evt_7_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 7, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:24.444890",
+      "context": {
+        "week": 7
+      },
+      "view_count": 0
+    },
+    "evt_7_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 7, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:24.453804",
+      "context": {
+        "week": 7
+      },
+      "view_count": 0
+    },
+    "evt_7_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 7, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:24.462857",
+      "context": {
+        "week": 7
+      },
+      "view_count": 0
+    },
+    "evt_8_Gather Intelligence": {
+      "entity_type": "event",
+      "text": "In week 8, Faction Gather Intelligence.",
+      "generated_at": "2026-06-09T00:56:24.472821",
+      "context": {
+        "week": 8
+      },
+      "view_count": 0
+    },
+    "evt_8_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 8, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:24.482000",
+      "context": {
+        "week": 8
+      },
+      "view_count": 0
+    },
+    "evt_8_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 8, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:24.491550",
+      "context": {
+        "week": 8
+      },
+      "view_count": 0
+    },
+    "evt_9_Stockpile Resources": {
+      "entity_type": "event",
+      "text": "In week 9, Faction Stockpile Resources.",
+      "generated_at": "2026-06-09T00:56:24.502729",
+      "context": {
+        "week": 9
+      },
+      "view_count": 0
+    },
+    "evt_9_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 9, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:24.513029",
+      "context": {
+        "week": 9
+      },
+      "view_count": 0
+    },
+    "evt_9_Establish Archive": {
+      "entity_type": "event",
+      "text": "In week 9, Faction Establish Archive.",
+      "generated_at": "2026-06-09T00:56:24.523652",
+      "context": {
+        "week": 9
+      },
+      "view_count": 0
+    },
+    "evt_10_Stockpile Resources": {
+      "entity_type": "event",
+      "text": "In week 10, Faction Stockpile Resources.",
+      "generated_at": "2026-06-09T00:56:24.535951",
+      "context": {
+        "week": 10
+      },
+      "view_count": 0
+    },
+    "evt_10_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 10, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:24.547037",
+      "context": {
+        "week": 10
+      },
+      "view_count": 0
+    },
+    "evt_10_Discover Technique": {
+      "entity_type": "event",
+      "text": "In week 10, Faction Discover Technique.",
+      "generated_at": "2026-06-09T00:56:24.559448",
+      "context": {
+        "week": 10
+      },
+      "view_count": 0
+    },
+    "evt_10_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 10, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:24.571405",
+      "context": {
+        "week": 10
+      },
+      "view_count": 0
+    },
+    "evt_11_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 11, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:24.584144",
+      "context": {
+        "week": 11
+      },
+      "view_count": 0
+    },
+    "evt_11_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 11, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:24.597365",
+      "context": {
+        "week": 11
+      },
+      "view_count": 0
+    },
+    "evt_12_Defend Borders": {
+      "entity_type": "event",
+      "text": "In week 12, Faction Defend Borders.",
+      "generated_at": "2026-06-09T00:56:24.610932",
+      "context": {
+        "week": 12
+      },
+      "view_count": 0
+    },
+    "evt_12_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 12, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:24.624542",
+      "context": {
+        "week": 12
+      },
+      "view_count": 0
+    },
+    "evt_12_Craft Artifact": {
+      "entity_type": "event",
+      "text": "In week 12, Faction Craft Artifact.",
+      "generated_at": "2026-06-09T00:56:24.638842",
+      "context": {
+        "week": 12
+      },
+      "view_count": 0
+    },
+    "evt_12_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 12, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:24.652313",
+      "context": {
+        "week": 12
+      },
+      "view_count": 0
+    },
+    "evt_13_Declare War": {
+      "entity_type": "event",
+      "text": "In week 13, Faction Declare War.",
+      "generated_at": "2026-06-09T00:56:24.666727",
+      "context": {
+        "week": 13
+      },
+      "view_count": 0
+    },
+    "evt_13_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 13, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:24.680667",
+      "context": {
+        "week": 13
+      },
+      "view_count": 0
+    },
+    "evt_13_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 13, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:24.696061",
+      "context": {
+        "week": 13
+      },
+      "view_count": 0
+    },
+    "evt_14_Gather Intelligence": {
+      "entity_type": "event",
+      "text": "In week 14, Faction Gather Intelligence.",
+      "generated_at": "2026-06-09T00:56:24.712803",
+      "context": {
+        "week": 14
+      },
+      "view_count": 0
+    },
+    "evt_14_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 14, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:24.727790",
+      "context": {
+        "week": 14
+      },
+      "view_count": 0
+    },
+    "evt_14_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 14, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:24.744368",
+      "context": {
+        "week": 14
+      },
+      "view_count": 0
+    },
+    "evt_14_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 14, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:24.760641",
+      "context": {
+        "week": 14
+      },
+      "view_count": 0
+    },
+    "evt_15_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 15, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:24.778731",
+      "context": {
+        "week": 15
+      },
+      "view_count": 0
+    },
+    "evt_15_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 15, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:24.797088",
+      "context": {
+        "week": 15
+      },
+      "view_count": 0
+    },
+    "evt_15_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 15, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:24.813256",
+      "context": {
+        "week": 15
+      },
+      "view_count": 0
+    },
+    "evt_16_Steal Resources": {
+      "entity_type": "event",
+      "text": "In week 16, Faction Steal Resources.",
+      "generated_at": "2026-06-09T00:56:24.831724",
+      "context": {
+        "week": 16
+      },
+      "view_count": 0
+    },
+    "evt_16_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 16, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:24.848623",
+      "context": {
+        "week": 16
+      },
+      "view_count": 0
+    },
+    "evt_16_Build Stronghold": {
+      "entity_type": "event",
+      "text": "In week 16, Faction Build Stronghold.",
+      "generated_at": "2026-06-09T00:56:24.866471",
+      "context": {
+        "week": 16
+      },
+      "view_count": 0
+    },
+    "evt_16_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 16, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:24.884991",
+      "context": {
+        "week": 16
+      },
+      "view_count": 0
+    },
+    "evt_17_Build Stronghold": {
+      "entity_type": "event",
+      "text": "In week 17, Faction Build Stronghold.",
+      "generated_at": "2026-06-09T00:56:24.904310",
+      "context": {
+        "week": 17
+      },
+      "view_count": 0
+    },
+    "evt_17_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 17, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:24.923219",
+      "context": {
+        "week": 17
+      },
+      "view_count": 0
+    },
+    "evt_17_Establish Archive": {
+      "entity_type": "event",
+      "text": "In week 17, Faction Establish Archive.",
+      "generated_at": "2026-06-09T00:56:24.942667",
+      "context": {
+        "week": 17
+      },
+      "view_count": 0
+    },
+    "evt_18_Establish Archive": {
+      "entity_type": "event",
+      "text": "In week 18, Faction Establish Archive.",
+      "generated_at": "2026-06-09T00:56:24.962979",
+      "context": {
+        "week": 18
+      },
+      "view_count": 0
+    },
+    "evt_18_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 18, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:24.983246",
+      "context": {
+        "week": 18
+      },
+      "view_count": 0
+    },
+    "evt_18_Defend Borders": {
+      "entity_type": "event",
+      "text": "In week 18, Faction Defend Borders.",
+      "generated_at": "2026-06-09T00:56:25.003515",
+      "context": {
+        "week": 18
+      },
+      "view_count": 0
+    },
+    "evt_19_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 19, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:25.024372",
+      "context": {
+        "week": 19
+      },
+      "view_count": 0
+    },
+    "evt_19_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 19, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:25.045215",
+      "context": {
+        "week": 19
+      },
+      "view_count": 0
+    },
+    "evt_19_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 19, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:25.188436",
+      "context": {
+        "week": 19
+      },
+      "view_count": 0
+    },
+    "evt_19_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 19, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:25.210579",
+      "context": {
+        "week": 19
+      },
+      "view_count": 0
+    },
+    "evt_20_Establish Archive": {
+      "entity_type": "event",
+      "text": "In week 20, Faction Establish Archive.",
+      "generated_at": "2026-06-09T00:56:25.233071",
+      "context": {
+        "week": 20
+      },
+      "view_count": 0
+    },
+    "evt_20_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 20, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:25.255639",
+      "context": {
+        "week": 20
+      },
+      "view_count": 0
+    },
+    "evt_20_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 20, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:25.278065",
+      "context": {
+        "week": 20
+      },
+      "view_count": 0
+    },
+    "evt_21_Stockpile Resources": {
+      "entity_type": "event",
+      "text": "In week 21, Faction Stockpile Resources.",
+      "generated_at": "2026-06-09T00:56:25.303458",
+      "context": {
+        "week": 21
+      },
+      "view_count": 0
+    },
+    "evt_21_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 21, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:25.327676",
+      "context": {
+        "week": 21
+      },
+      "view_count": 0
+    },
+    "evt_21_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 21, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:25.350840",
+      "context": {
+        "week": 21
+      },
+      "view_count": 0
+    },
+    "evt_22_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 22, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:25.373608",
+      "context": {
+        "week": 22
+      },
+      "view_count": 0
+    },
+    "evt_22_Establish Archive": {
+      "entity_type": "event",
+      "text": "In week 22, Faction Establish Archive.",
+      "generated_at": "2026-06-09T00:56:25.398022",
+      "context": {
+        "week": 22
+      },
+      "view_count": 0
+    },
+    "evt_22_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 22, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:25.422920",
+      "context": {
+        "week": 22
+      },
+      "view_count": 0
+    },
+    "evt_23_Gather Intelligence": {
+      "entity_type": "event",
+      "text": "In week 23, Faction Gather Intelligence.",
+      "generated_at": "2026-06-09T00:56:25.449462",
+      "context": {
+        "week": 23
+      },
+      "view_count": 0
+    },
+    "evt_23_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 23, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:25.473152",
+      "context": {
+        "week": 23
+      },
+      "view_count": 0
+    },
+    "evt_23_Defend Borders": {
+      "entity_type": "event",
+      "text": "In week 23, Faction Defend Borders.",
+      "generated_at": "2026-06-09T00:56:25.498261",
+      "context": {
+        "week": 23
+      },
+      "view_count": 0
+    },
+    "evt_23_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 23, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:25.523707",
+      "context": {
+        "week": 23
+      },
+      "view_count": 0
+    },
+    "evt_24_Found New Town": {
+      "entity_type": "event",
+      "text": "In week 24, Faction Found New Town.",
+      "generated_at": "2026-06-09T00:56:25.549636",
+      "context": {
+        "week": 24
+      },
+      "view_count": 0
+    },
+    "evt_24_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 24, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:25.575756",
+      "context": {
+        "week": 24
+      },
+      "view_count": 0
+    },
+    "evt_25_Claim Territory": {
+      "entity_type": "event",
+      "text": "In week 25, Faction Claim Territory.",
+      "generated_at": "2026-06-09T00:56:25.603823",
+      "context": {
+        "week": 25
+      },
+      "view_count": 0
+    },
+    "evt_25_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 25, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:25.629312",
+      "context": {
+        "week": 25
+      },
+      "view_count": 0
+    },
+    "evt_25_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 25, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:25.656178",
+      "context": {
+        "week": 25
+      },
+      "view_count": 0
+    },
+    "evt_26_Claim Territory": {
+      "entity_type": "event",
+      "text": "In week 26, Faction Claim Territory.",
+      "generated_at": "2026-06-09T00:56:25.684072",
+      "context": {
+        "week": 26
+      },
+      "view_count": 0
+    },
+    "evt_26_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 26, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:25.710406",
+      "context": {
+        "week": 26
+      },
+      "view_count": 0
+    },
+    "evt_26_Defend Borders": {
+      "entity_type": "event",
+      "text": "In week 26, Faction Defend Borders.",
+      "generated_at": "2026-06-09T00:56:25.738337",
+      "context": {
+        "week": 26
+      },
+      "view_count": 0
+    },
+    "evt_27_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 27, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:25.767997",
+      "context": {
+        "week": 27
+      },
+      "view_count": 0
+    },
+    "evt_27_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 27, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:25.797896",
+      "context": {
+        "week": 27
+      },
+      "view_count": 0
+    },
+    "evt_27_Stockpile Resources": {
+      "entity_type": "event",
+      "text": "In week 27, Faction Stockpile Resources.",
+      "generated_at": "2026-06-09T00:56:25.828699",
+      "context": {
+        "week": 27
+      },
+      "view_count": 0
+    },
+    "evt_27_Recruit Members": {
+      "entity_type": "event",
+      "text": "In week 27, Faction Recruit Members.",
+      "generated_at": "2026-06-09T00:56:25.858066",
+      "context": {
+        "week": 27
+      },
+      "view_count": 0
+    },
+    "evt_28_Build Stronghold": {
+      "entity_type": "event",
+      "text": "In week 28, Faction Build Stronghold.",
+      "generated_at": "2026-06-09T00:56:25.887958",
+      "context": {
+        "week": 28
+      },
+      "view_count": 0
+    },
+    "evt_28_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 28, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:25.918378",
+      "context": {
+        "week": 28
+      },
+      "view_count": 0
+    },
+    "evt_28_Trade Agreement": {
+      "entity_type": "event",
+      "text": "In week 28, Faction Trade Agreement.",
+      "generated_at": "2026-06-09T00:56:25.949396",
+      "context": {
+        "week": 28
+      },
+      "view_count": 0
+    },
+    "evt_29_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 29, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:25.978444",
+      "context": {
+        "week": 29
+      },
+      "view_count": 0
+    },
+    "evt_29_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 29, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:26.009433",
+      "context": {
+        "week": 29
+      },
+      "view_count": 0
+    },
+    "evt_30_Propose Alliance": {
+      "entity_type": "event",
+      "text": "In week 30, Faction Propose Alliance.",
+      "generated_at": "2026-06-09T00:56:26.041147",
+      "context": {
+        "week": 30
+      },
+      "view_count": 0
+    },
+    "evt_30_Convert Town": {
+      "entity_type": "event",
+      "text": "In week 30, Faction Convert Town.",
+      "generated_at": "2026-06-09T00:56:26.070534",
+      "context": {
+        "week": 30
+      },
+      "view_count": 0
+    },
+    "evt_30_Discover Technique": {
+      "entity_type": "event",
+      "text": "In week 30, Faction Discover Technique.",
+      "generated_at": "2026-06-09T00:56:26.104719",
+      "context": {
+        "week": 30
+      },
+      "view_count": 0
+    },
+    "npc_npc_000001": {
+      "entity_type": "npc",
+      "text": "Samson is a Rooster/Scorpio with distinctive biorhythms.",
+      "generated_at": "2026-06-09T00:56:26.158424",
+      "context": {
+        "week": 30
+      },
+      "view_count": 1
+    },
+    "npc_npc_000002": {
+      "entity_type": "npc",
+      "text": "Patkeeper is a Rat/Pisces with distinctive biorhythms.",
+      "generated_at": "2026-06-09T00:56:26.214385",
+      "context": {
+        "week": 30
+      },
+      "view_count": 1
+    },
+    "npc_npc_000003": {
+      "entity_type": "npc",
+      "text": "Ashrebirth is a Boar/Capricorn with distinctive biorhythms.",
+      "generated_at": "2026-06-09T00:56:26.262697",
+      "context": {
+        "week": 30
+      },
+      "view_count": 1
+    },
+    "npc_npc_000004": {
+      "entity_type": "npc",
+      "text": "Janewalker is a Dragon/Scorpio with distinctive biorhythms.",
+      "generated_at": "2026-06-09T00:56:26.316826",
+      "context": {
+        "week": 30
+      },
+      "view_count": 1
+    },
+    "npc_npc_000005": {
+      "entity_type": "npc",
+      "text": "Patwalker is a Dog/Cancer with distinctive biorhythms.",
+      "generated_at": "2026-06-09T00:56:26.368590",
+      "context": {
+        "week": 30
+      },
+      "view_count": 1
+    },
+    "npc_npc_000006": {
+      "entity_type": "npc",
+      "text": "Samsmith is a Rooster/Aries with distinctive biorhythms.",
+      "generated_at": "2026-06-09T00:56:26.422218",
+      "context": {
+        "week": 30
+      },
+      "view_count": 1
+    }
+  },
+  "discovered_entities": [
+    "evt_1_Establish Archive",
+    "evt_1_Trade Agreement",
+    "evt_1_Recruit Members",
+    "evt_2_Claim Territory",
+    "evt_2_Trade Agreement",
+    "evt_2_Propose Alliance",
+    "evt_3_Steal Resources",
+    "evt_3_Propose Alliance",
+    "evt_3_Stockpile Resources",
+    "evt_3_Convert Town",
+    "evt_4_Propose Alliance",
+    "evt_4_Trade Agreement",
+    "evt_4_Establish Archive",
+    "evt_4_Convert Town",
+    "evt_5_Discover Technique",
+    "evt_5_Propose Alliance",
+    "evt_5_Establish Archive",
+    "evt_5_Recruit Members",
+    "evt_6_Build Stronghold",
+    "evt_6_Propose Alliance",
+    "evt_6_Defend Borders",
+    "evt_7_Raid Outpost",
+    "evt_7_Propose Alliance",
+    "evt_7_Trade Agreement",
+    "evt_7_Recruit Members",
+    "evt_8_Gather Intelligence",
+    "evt_8_Convert Town",
+    "evt_8_Propose Alliance",
+    "evt_9_Stockpile Resources",
+    "evt_9_Convert Town",
+    "evt_9_Establish Archive",
+    "evt_10_Stockpile Resources",
+    "evt_10_Convert Town",
+    "evt_10_Discover Technique",
+    "evt_10_Recruit Members",
+    "evt_11_Recruit Members",
+    "evt_11_Trade Agreement",
+    "evt_12_Defend Borders",
+    "evt_12_Propose Alliance",
+    "evt_12_Craft Artifact",
+    "evt_12_Convert Town",
+    "evt_13_Declare War",
+    "evt_13_Convert Town",
+    "evt_13_Recruit Members",
+    "evt_14_Gather Intelligence",
+    "evt_14_Convert Town",
+    "evt_14_Trade Agreement",
+    "evt_14_Propose Alliance",
+    "evt_15_Trade Agreement",
+    "evt_15_Propose Alliance",
+    "evt_15_Convert Town",
+    "evt_16_Steal Resources",
+    "evt_16_Convert Town",
+    "evt_16_Build Stronghold",
+    "evt_16_Recruit Members",
+    "evt_17_Build Stronghold",
+    "evt_17_Recruit Members",
+    "evt_17_Establish Archive",
+    "evt_18_Establish Archive",
+    "evt_18_Propose Alliance",
+    "evt_18_Defend Borders",
+    "evt_19_Recruit Members",
+    "evt_19_Propose Alliance",
+    "evt_19_Convert Town",
+    "evt_19_Trade Agreement",
+    "evt_20_Establish Archive",
+    "evt_20_Trade Agreement",
+    "evt_20_Recruit Members",
+    "evt_21_Stockpile Resources",
+    "evt_21_Recruit Members",
+    "evt_21_Propose Alliance",
+    "evt_22_Convert Town",
+    "evt_22_Establish Archive",
+    "evt_22_Trade Agreement",
+    "evt_23_Gather Intelligence",
+    "evt_23_Convert Town",
+    "evt_23_Defend Borders",
+    "evt_23_Recruit Members",
+    "evt_24_Found New Town",
+    "evt_24_Recruit Members",
+    "evt_25_Claim Territory",
+    "evt_25_Convert Town",
+    "evt_25_Propose Alliance",
+    "evt_26_Claim Territory",
+    "evt_26_Convert Town",
+    "evt_26_Defend Borders",
+    "evt_27_Trade Agreement",
+    "evt_27_Propose Alliance",
+    "evt_27_Stockpile Resources",
+    "evt_27_Recruit Members",
+    "evt_28_Build Stronghold",
+    "evt_28_Convert Town",
+    "evt_28_Trade Agreement",
+    "evt_29_Convert Town",
+    "evt_29_Propose Alliance",
+    "evt_30_Propose Alliance",
+    "evt_30_Convert Town",
+    "evt_30_Discover Technique",
+    "npc_npc_000001",
+    "npc_npc_000002",
+    "npc_npc_000003",
+    "npc_npc_000004",
+    "npc_npc_000005",
+    "npc_npc_000006"
+  ],
+  "witnessed_events": [
+    {
+      "week": 1,
+      "timestamp": "2026-06-09T00:56:24.334393",
+      "action": "Establish Archive",
+      "category": "Infrastructure",
+      "success": false
+    },
+    {
+      "week": 1,
+      "timestamp": "2026-06-09T00:56:24.336026",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 1,
+      "timestamp": "2026-06-09T00:56:24.337831",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 1,
+      "timestamp": "2026-06-09T00:56:24.337836",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 2,
+      "timestamp": "2026-06-09T00:56:24.340323",
+      "action": "Claim Territory",
+      "category": "Expansion",
+      "success": false
+    },
+    {
+      "week": 2,
+      "timestamp": "2026-06-09T00:56:24.342854",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 2,
+      "timestamp": "2026-06-09T00:56:24.345837",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 2,
+      "timestamp": "2026-06-09T00:56:24.345843",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 3,
+      "timestamp": "2026-06-09T00:56:24.349359",
+      "action": "Steal Resources",
+      "category": "Espionage",
+      "success": false
+    },
+    {
+      "week": 3,
+      "timestamp": "2026-06-09T00:56:24.352709",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 3,
+      "timestamp": "2026-06-09T00:56:24.356128",
+      "action": "Stockpile Resources",
+      "category": "Consolidation",
+      "success": true
+    },
+    {
+      "week": 3,
+      "timestamp": "2026-06-09T00:56:24.360721",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 4,
+      "timestamp": "2026-06-09T00:56:24.365477",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 4,
+      "timestamp": "2026-06-09T00:56:24.370219",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 4,
+      "timestamp": "2026-06-09T00:56:24.375192",
+      "action": "Establish Archive",
+      "category": "Infrastructure",
+      "success": false
+    },
+    {
+      "week": 4,
+      "timestamp": "2026-06-09T00:56:24.380526",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 5,
+      "timestamp": "2026-06-09T00:56:24.386880",
+      "action": "Discover Technique",
+      "category": "Research",
+      "success": true
+    },
+    {
+      "week": 5,
+      "timestamp": "2026-06-09T00:56:24.392868",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 5,
+      "timestamp": "2026-06-09T00:56:24.399421",
+      "action": "Establish Archive",
+      "category": "Infrastructure",
+      "success": true
+    },
+    {
+      "week": 5,
+      "timestamp": "2026-06-09T00:56:24.406044",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 6,
+      "timestamp": "2026-06-09T00:56:24.413487",
+      "action": "Build Stronghold",
+      "category": "Infrastructure",
+      "success": true
+    },
+    {
+      "week": 6,
+      "timestamp": "2026-06-09T00:56:24.421082",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 6,
+      "timestamp": "2026-06-09T00:56:24.428691",
+      "action": "Defend Borders",
+      "category": "Consolidation",
+      "success": false
+    },
+    {
+      "week": 6,
+      "timestamp": "2026-06-09T00:56:24.428697",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 7,
+      "timestamp": "2026-06-09T00:56:24.436607",
+      "action": "Raid Outpost",
+      "category": "War",
+      "success": true
+    },
+    {
+      "week": 7,
+      "timestamp": "2026-06-09T00:56:24.444898",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 7,
+      "timestamp": "2026-06-09T00:56:24.453815",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 7,
+      "timestamp": "2026-06-09T00:56:24.462865",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 8,
+      "timestamp": "2026-06-09T00:56:24.472828",
+      "action": "Gather Intelligence",
+      "category": "Espionage",
+      "success": false
+    },
+    {
+      "week": 8,
+      "timestamp": "2026-06-09T00:56:24.482008",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 8,
+      "timestamp": "2026-06-09T00:56:24.491557",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 8,
+      "timestamp": "2026-06-09T00:56:24.491562",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 9,
+      "timestamp": "2026-06-09T00:56:24.502737",
+      "action": "Stockpile Resources",
+      "category": "Consolidation",
+      "success": true
+    },
+    {
+      "week": 9,
+      "timestamp": "2026-06-09T00:56:24.513038",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 9,
+      "timestamp": "2026-06-09T00:56:24.523659",
+      "action": "Establish Archive",
+      "category": "Infrastructure",
+      "success": false
+    },
+    {
+      "week": 9,
+      "timestamp": "2026-06-09T00:56:24.523664",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 10,
+      "timestamp": "2026-06-09T00:56:24.535959",
+      "action": "Stockpile Resources",
+      "category": "Consolidation",
+      "success": false
+    },
+    {
+      "week": 10,
+      "timestamp": "2026-06-09T00:56:24.547046",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 10,
+      "timestamp": "2026-06-09T00:56:24.559457",
+      "action": "Discover Technique",
+      "category": "Research",
+      "success": false
+    },
+    {
+      "week": 10,
+      "timestamp": "2026-06-09T00:56:24.571414",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 11,
+      "timestamp": "2026-06-09T00:56:24.584154",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 11,
+      "timestamp": "2026-06-09T00:56:24.584160",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 11,
+      "timestamp": "2026-06-09T00:56:24.597373",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 11,
+      "timestamp": "2026-06-09T00:56:24.597379",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 12,
+      "timestamp": "2026-06-09T00:56:24.610942",
+      "action": "Defend Borders",
+      "category": "Consolidation",
+      "success": true
+    },
+    {
+      "week": 12,
+      "timestamp": "2026-06-09T00:56:24.624551",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 12,
+      "timestamp": "2026-06-09T00:56:24.638851",
+      "action": "Craft Artifact",
+      "category": "Research",
+      "success": true
+    },
+    {
+      "week": 12,
+      "timestamp": "2026-06-09T00:56:24.652322",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 13,
+      "timestamp": "2026-06-09T00:56:24.666736",
+      "action": "Declare War",
+      "category": "War",
+      "success": true
+    },
+    {
+      "week": 13,
+      "timestamp": "2026-06-09T00:56:24.680677",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 13,
+      "timestamp": "2026-06-09T00:56:24.696070",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 13,
+      "timestamp": "2026-06-09T00:56:24.696076",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 14,
+      "timestamp": "2026-06-09T00:56:24.712812",
+      "action": "Gather Intelligence",
+      "category": "Espionage",
+      "success": true
+    },
+    {
+      "week": 14,
+      "timestamp": "2026-06-09T00:56:24.727800",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 14,
+      "timestamp": "2026-06-09T00:56:24.744378",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 14,
+      "timestamp": "2026-06-09T00:56:24.760652",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 15,
+      "timestamp": "2026-06-09T00:56:24.778746",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 15,
+      "timestamp": "2026-06-09T00:56:24.797098",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 15,
+      "timestamp": "2026-06-09T00:56:24.797104",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 15,
+      "timestamp": "2026-06-09T00:56:24.813265",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 16,
+      "timestamp": "2026-06-09T00:56:24.831734",
+      "action": "Steal Resources",
+      "category": "Espionage",
+      "success": false
+    },
+    {
+      "week": 16,
+      "timestamp": "2026-06-09T00:56:24.848633",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 16,
+      "timestamp": "2026-06-09T00:56:24.866481",
+      "action": "Build Stronghold",
+      "category": "Infrastructure",
+      "success": true
+    },
+    {
+      "week": 16,
+      "timestamp": "2026-06-09T00:56:24.885001",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 17,
+      "timestamp": "2026-06-09T00:56:24.904320",
+      "action": "Build Stronghold",
+      "category": "Infrastructure",
+      "success": false
+    },
+    {
+      "week": 17,
+      "timestamp": "2026-06-09T00:56:24.923229",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 17,
+      "timestamp": "2026-06-09T00:56:24.942679",
+      "action": "Establish Archive",
+      "category": "Infrastructure",
+      "success": false
+    },
+    {
+      "week": 17,
+      "timestamp": "2026-06-09T00:56:24.942686",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 18,
+      "timestamp": "2026-06-09T00:56:24.962989",
+      "action": "Establish Archive",
+      "category": "Infrastructure",
+      "success": false
+    },
+    {
+      "week": 18,
+      "timestamp": "2026-06-09T00:56:24.983257",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 18,
+      "timestamp": "2026-06-09T00:56:25.003525",
+      "action": "Defend Borders",
+      "category": "Consolidation",
+      "success": true
+    },
+    {
+      "week": 18,
+      "timestamp": "2026-06-09T00:56:25.003531",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 19,
+      "timestamp": "2026-06-09T00:56:25.024382",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 19,
+      "timestamp": "2026-06-09T00:56:25.045226",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 19,
+      "timestamp": "2026-06-09T00:56:25.188448",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 19,
+      "timestamp": "2026-06-09T00:56:25.210592",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 20,
+      "timestamp": "2026-06-09T00:56:25.233082",
+      "action": "Establish Archive",
+      "category": "Infrastructure",
+      "success": false
+    },
+    {
+      "week": 20,
+      "timestamp": "2026-06-09T00:56:25.255650",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 20,
+      "timestamp": "2026-06-09T00:56:25.255655",
+      "action": "Establish Archive",
+      "category": "Infrastructure",
+      "success": false
+    },
+    {
+      "week": 20,
+      "timestamp": "2026-06-09T00:56:25.278077",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 21,
+      "timestamp": "2026-06-09T00:56:25.303468",
+      "action": "Stockpile Resources",
+      "category": "Consolidation",
+      "success": true
+    },
+    {
+      "week": 21,
+      "timestamp": "2026-06-09T00:56:25.327690",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 21,
+      "timestamp": "2026-06-09T00:56:25.327696",
+      "action": "Stockpile Resources",
+      "category": "Consolidation",
+      "success": false
+    },
+    {
+      "week": 21,
+      "timestamp": "2026-06-09T00:56:25.350850",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 22,
+      "timestamp": "2026-06-09T00:56:25.373618",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 22,
+      "timestamp": "2026-06-09T00:56:25.373624",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 22,
+      "timestamp": "2026-06-09T00:56:25.398035",
+      "action": "Establish Archive",
+      "category": "Infrastructure",
+      "success": true
+    },
+    {
+      "week": 22,
+      "timestamp": "2026-06-09T00:56:25.422931",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 23,
+      "timestamp": "2026-06-09T00:56:25.449473",
+      "action": "Gather Intelligence",
+      "category": "Espionage",
+      "success": false
+    },
+    {
+      "week": 23,
+      "timestamp": "2026-06-09T00:56:25.473162",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 23,
+      "timestamp": "2026-06-09T00:56:25.498272",
+      "action": "Defend Borders",
+      "category": "Consolidation",
+      "success": true
+    },
+    {
+      "week": 23,
+      "timestamp": "2026-06-09T00:56:25.523718",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 24,
+      "timestamp": "2026-06-09T00:56:25.549647",
+      "action": "Found New Town",
+      "category": "Expansion",
+      "success": false
+    },
+    {
+      "week": 24,
+      "timestamp": "2026-06-09T00:56:25.575767",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 24,
+      "timestamp": "2026-06-09T00:56:25.575773",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 24,
+      "timestamp": "2026-06-09T00:56:25.575777",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 25,
+      "timestamp": "2026-06-09T00:56:25.603834",
+      "action": "Claim Territory",
+      "category": "Expansion",
+      "success": false
+    },
+    {
+      "week": 25,
+      "timestamp": "2026-06-09T00:56:25.629324",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 25,
+      "timestamp": "2026-06-09T00:56:25.656189",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 25,
+      "timestamp": "2026-06-09T00:56:25.656196",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 26,
+      "timestamp": "2026-06-09T00:56:25.684084",
+      "action": "Claim Territory",
+      "category": "Expansion",
+      "success": true
+    },
+    {
+      "week": 26,
+      "timestamp": "2026-06-09T00:56:25.710421",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 26,
+      "timestamp": "2026-06-09T00:56:25.738350",
+      "action": "Defend Borders",
+      "category": "Consolidation",
+      "success": false
+    },
+    {
+      "week": 26,
+      "timestamp": "2026-06-09T00:56:25.738356",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 27,
+      "timestamp": "2026-06-09T00:56:25.768009",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 27,
+      "timestamp": "2026-06-09T00:56:25.797907",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 27,
+      "timestamp": "2026-06-09T00:56:25.828712",
+      "action": "Stockpile Resources",
+      "category": "Consolidation",
+      "success": false
+    },
+    {
+      "week": 27,
+      "timestamp": "2026-06-09T00:56:25.858078",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 28,
+      "timestamp": "2026-06-09T00:56:25.887970",
+      "action": "Build Stronghold",
+      "category": "Infrastructure",
+      "success": true
+    },
+    {
+      "week": 28,
+      "timestamp": "2026-06-09T00:56:25.918390",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 28,
+      "timestamp": "2026-06-09T00:56:25.949408",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 28,
+      "timestamp": "2026-06-09T00:56:25.949414",
+      "action": "Trade Agreement",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 29,
+      "timestamp": "2026-06-09T00:56:25.978459",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 29,
+      "timestamp": "2026-06-09T00:56:25.978465",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": true
+    },
+    {
+      "week": 29,
+      "timestamp": "2026-06-09T00:56:26.009445",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 29,
+      "timestamp": "2026-06-09T00:56:26.009450",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": false
+    },
+    {
+      "week": 30,
+      "timestamp": "2026-06-09T00:56:26.041159",
+      "action": "Propose Alliance",
+      "category": "Diplomacy",
+      "success": true
+    },
+    {
+      "week": 30,
+      "timestamp": "2026-06-09T00:56:26.070547",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": false
+    },
+    {
+      "week": 30,
+      "timestamp": "2026-06-09T00:56:26.104743",
+      "action": "Discover Technique",
+      "category": "Research",
+      "success": true
+    },
+    {
+      "week": 30,
+      "timestamp": "2026-06-09T00:56:26.104752",
+      "action": "Convert Town",
+      "category": "Recruitment",
+      "success": false
+    }
+  ],
+  "last_save": "2026-06-09T00:56:26.422227",
+  "total_play_time": 0
+}

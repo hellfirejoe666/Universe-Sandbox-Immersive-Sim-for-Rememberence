@@ -1,0 +1,106 @@
+{
+  "learner_test": {
+    "signatures": [
+      {
+        "text_hash": "ea640a502645496b",
+        "signature": {
+          "center_energy": 0.33944982290267944,
+          "high_freq_energy": 341.05487060546875,
+          "mid_freq_energy": 341.05487060546875,
+          "total_energy": 557.60107421875,
+          "entropy": 11.306180953979492,
+          "symmetry_score": 0.029433216899633408,
+          "radial_distribution": 19.952731196684116,
+          "spectral_centroid": 0.052165945568564805,
+          "spectral_spread": 1.077123761177063,
+          "peak_ratio": 7.345753192901611,
+          "directional_ratio": 0.903872961900814,
+          "texture_complexity": 0.017076661810278893,
+          "structural_novelty": 0.0,
+          "semantic_novelty": 0.0,
+          "temporal_novelty": 0.0,
+          "overall_novelty": 0.0
+        },
+        "timestamp": "2026-04-23T19:55:18.645689"
+      }
+    ],
+    "clusters": {
+      "cluster_0": [
+        {
+          "center_energy": 0.33944982290267944,
+          "high_freq_energy": 341.05487060546875,
+          "mid_freq_energy": 341.05487060546875,
+          "total_energy": 557.60107421875,
+          "entropy": 11.306180953979492,
+          "symmetry_score": 0.029433216899633408,
+          "radial_distribution": 19.952731196684116,
+          "spectral_centroid": 0.052165945568564805,
+          "spectral_spread": 1.077123761177063,
+          "peak_ratio": 7.345753192901611,
+          "directional_ratio": 0.903872961900814,
+          "texture_complexity": 0.017076661810278893,
+          "structural_novelty": 0.0,
+          "semantic_novelty": 0.0,
+          "temporal_novelty": 0.0,
+          "overall_novelty": 0.0
+        }
+      ]
+    },
+    "stats": {
+      "total_queries": 1,
+      "last_updated": "2026-04-23T19:55:18.645708"
+    }
+  },
+  "default": {
+    "signatures": [
+      {
+        "text_hash": "ea640a502645496b",
+        "signature": {
+          "center_energy": 0.33944982290267944,
+          "high_freq_energy": 341.05487060546875,
+          "mid_freq_energy": 341.05487060546875,
+          "total_energy": 557.60107421875,
+          "entropy": 11.306180953979492,
+          "symmetry_score": 0.029433216899633408,
+          "radial_distribution": 19.952731196684116,
+          "spectral_centroid": 0.052165945568564805,
+          "spectral_spread": 1.077123761177063,
+          "peak_ratio": 7.345753192901611,
+          "directional_ratio": 0.903872961900814,
+          "texture_complexity": 0.017076661810278893,
+          "structural_novelty": 0.0,
+          "semantic_novelty": 0.0,
+          "temporal_novelty": 0.0,
+          "overall_novelty": 0.0
+        },
+        "timestamp": "2026-04-23T19:55:31.783504"
+      }
+    ],
+    "clusters": {
+      "cluster_0": [
+        {
+          "center_energy": 0.33944982290267944,
+          "high_freq_energy": 341.05487060546875,
+          "mid_freq_energy": 341.05487060546875,
+          "total_energy": 557.60107421875,
+          "entropy": 11.306180953979492,
+          "symmetry_score": 0.029433216899633408,
+          "radial_distribution": 19.952731196684116,
+          "spectral_centroid": 0.052165945568564805,
+          "spectral_spread": 1.077123761177063,
+          "peak_ratio": 7.345753192901611,
+          "directional_ratio": 0.903872961900814,
+          "texture_complexity": 0.017076661810278893,
+          "structural_novelty": 0.0,
+          "semantic_novelty": 0.0,
+          "temporal_novelty": 0.0,
+          "overall_novelty": 0.0
+        }
+      ]
+    },
+    "stats": {
+      "total_queries": 1,
+      "last_updated": "2026-04-23T19:55:31.783538"
+    }
+  }
+}

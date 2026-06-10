@@ -1,0 +1,20 @@
+{
+  "WHAT IS THE HYBRID ROUTER": "The hybrid router is a three-path AI system: FAST for patterns, SMART for local LLM, CLOUD for escape.",
+  "TEST PATTERN ABC123": "This is a test response for validation",
+  "* is # + #": "2 + 2 equals 4.",
+  "GATEWAY STATUS": "Gateway is running on http://127.0.0.1:18789",
+  "GATEWAY RESTART": "Restarting Gateway...",
+  "OPENCLAW STATUS": "OpenClaw is operational",
+  "WHAT IS OPENCLAW": "OpenClaw is a self-hosted AI gateway connecting chat apps to coding agents",
+  "WHAT MODELS AVAILABLE": "Available models: qwen3.5:cloud, qwen2.5:7b, phi3:mini, hybrid-router",
+  "HOW TO INSTALL": "npm install -g openclaw@latest && openclaw onboard",
+  "HEARTBEAT OK": "\u2713",
+  "NOTHING NEEDS ATTENTION": "\u2713 All systems normal",
+  "NO URGENT TASKS": "\u2713 No urgent tasks",
+  "* you please help me check if there are any urgent emails I need to respond to": "To check for urgent emails that need your response, you can follow these st\u001b[2D\u001b[K\nsteps:\n\n1. **Open Your Email Client**: Launch the email application (e.g., Outlook,\u001b[8D\u001b[K\nOutlook, Gmail) or access ...",
+  "* is your name": "My name is Qwen. I'm a large language model created by Alibaba Cloud. How c\u001b[1D\u001b[K\ncan I assist you today?",
+  "* a short fantasy story about a dragon": "[Response timeout - try again]",
+  "* is the hybrid router": "[Response timeout - try again]",
+  "# + #": "2 + 2 equals 4.",
+  "* a short poem about AI": "[Response timeout - try again]"
+}

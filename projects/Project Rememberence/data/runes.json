@@ -1,0 +1,384 @@
+{
+  "runes": {
+    "Cu": {
+      "effect": "Target Other",
+      "cost": 100,
+      "description": "Togetherness, more than oneself"
+    },
+    "Jo": {
+      "effect": "Changes bio to VIT",
+      "cost": 100,
+      "description": "Justice, liberty, respect, freedom"
+    },
+    "Mi": {
+      "effect": "Target Self",
+      "cost": 100,
+      "description": "Pertaining to self, me, myself, I"
+    },
+    "Ah": {
+      "effect": "End Action/Phase",
+      "cost": 100,
+      "description": "Tranquility, peace, rationality, sanity, enlightening"
+    },
+    "Lo": {
+      "effect": "Target Ally",
+      "cost": 100,
+      "description": "Friendship, family, compassion, care"
+    },
+    "So": {
+      "effect": "Reach",
+      "cost": 100,
+      "description": "And, above, up, over, more"
+    },
+    "Un": {
+      "effect": "Changes bio to WIS",
+      "cost": 100,
+      "description": "Make, change, adapt, build"
+    },
+    "Vel": {
+      "effect": "Changes bio to STR",
+      "cost": 100,
+      "description": "Strength, power, ego, confidence, pride"
+    },
+    "Aye": {
+      "effect": "Changes bio to FND",
+      "cost": 100,
+      "description": "Stillness, motionless, unbiased, silence, steady"
+    },
+    "Sl": {
+      "effect": "Vanish",
+      "cost": 100,
+      "description": "Sight, vision, to see clearly"
+    },
+    "Ge": {
+      "effect": "Changes bio to UND",
+      "cost": 100,
+      "description": "Knowledge, understanding, intelligence"
+    },
+    "O": {
+      "effect": "Dodge",
+      "cost": 100,
+      "description": "Avoid, or, dodge, around"
+    },
+    "Zeb": {
+      "effect": "Invert effect",
+      "cost": 100,
+      "description": "No, not, but"
+    },
+    "Ta": {
+      "effect": "Stun",
+      "cost": 100,
+      "description": "Before, the past, unfinished, lazy, sloth"
+    },
+    "Fol": {
+      "effect": "Frostbite",
+      "cost": 100,
+      "description": "Wedged, stuck, curious, indecisive, narrow"
+    },
+    "Web": {
+      "effect": "LifeLink",
+      "cost": 100,
+      "description": "Life, nature, smell, wild, scent"
+    },
+    "Ic": {
+      "effect": "Living Armor",
+      "cost": 100,
+      "description": "Bring, keep, capture, closeness, to establish"
+    },
+    "Sai": {
+      "effect": "Change bio to MNF",
+      "cost": 100,
+      "description": "Time, patience, perception, future, later"
+    },
+    "I": {
+      "effect": "Reduction",
+      "cost": 100,
+      "description": "Small, short, close, tiny"
+    },
+    "Ki": {
+      "effect": "Trample",
+      "cost": 100,
+      "description": "Toward, with, through, in the direction of"
+    },
+    "Ro": {
+      "effect": "ManaLink",
+      "cost": 100,
+      "description": "Unity, Love, connection"
+    },
+    "Zic": {
+      "effect": "Poison",
+      "cost": 100,
+      "description": "Wound, pain, illness, hurt"
+    },
+    "Lin": {
+      "effect": "Vigilance",
+      "cost": 100,
+      "description": "Forward, determination, ambition"
+    },
+    "Gi": {
+      "effect": "Element Earth",
+      "cost": 100,
+      "description": "Balance, agreement, earth, north, well founded"
+    },
+    "Ba": {
+      "effect": "Change bio to SPL",
+      "cost": 100,
+      "description": "Crossroads, gathering, acceptance, to bring together"
+    },
+    "Na": {
+      "effect": "Target Area",
+      "cost": 100,
+      "description": "Everything, everyone, whole"
+    },
+    "Ga": {
+      "effect": "Changes to DEF",
+      "cost": 100,
+      "description": "Shield, guardian, protection"
+    },
+    "Ya": {
+      "effect": "Defender",
+      "cost": 100,
+      "description": "Wall, obstacle, stop, barrier"
+    },
+    "Hi": {
+      "effect": "Charge",
+      "cost": 100,
+      "description": "Hope, faith, belief"
+    },
+    "Zi": {
+      "effect": "Element Water",
+      "cost": 100,
+      "description": "Flow, pattern, circulation, water, west"
+    },
+    "Oc": {
+      "effect": "Change bio to KNO",
+      "cost": 100,
+      "description": "Truth, fact, logic, math"
+    },
+    "Ru": {
+      "effect": "Change bio to DIV",
+      "cost": 100,
+      "description": "Reality, creation, dimensions, planes of existence"
+    },
+    "Sti": {
+      "effect": "Guard",
+      "cost": 100,
+      "description": "One, single, rest, comfort"
+    },
+    "Din": {
+      "effect": "Element Dark",
+      "cost": 100,
+      "description": "Destruction, death, mayhem, chaos, havoc"
+    },
+    "Wa": {
+      "effect": "Changes bio to BEU",
+      "cost": 100,
+      "description": "Focus, attraction, attention, envy"
+    },
+    "Par": {
+      "effect": "Changes to HP",
+      "cost": 100,
+      "description": "Healing, regeneration, cleansing, recovery, purity"
+    },
+    "Ma": {
+      "effect": "Trade",
+      "cost": 100,
+      "description": "Much, abundance, wealth, glutton"
+    },
+    "Fa": {
+      "effect": "Ranged",
+      "cost": 100,
+      "description": "Consumption, Greed, Money"
+    },
+    "Po": {
+      "effect": "Increase",
+      "cost": 100,
+      "description": "Give, provide, allow, contribute, donate"
+    },
+    "Cel": {
+      "effect": "MultiStrike",
+      "cost": 100,
+      "description": "Two, also, as well"
+    },
+    "Pow": {
+      "effect": "Trance",
+      "cost": 100,
+      "description": "Being-ness, existence, am/are, higher self"
+    },
+    "Kai": {
+      "effect": "Changes to MP",
+      "cost": 100,
+      "description": "Result, outcome, solution, answer"
+    },
+    "Te": {
+      "effect": "Element Light",
+      "cost": 100,
+      "description": "Grace, beauty, blessed, elegance"
+    },
+    "El": {
+      "effect": "Magic",
+      "cost": 100,
+      "description": "Acceptance, belonging, taste"
+    },
+    "Re": {
+      "effect": "Special",
+      "cost": 100,
+      "description": "Excitement, imagination, games"
+    },
+    "Bo": {
+      "effect": "Loyalty+",
+      "cost": 100,
+      "description": "Promise, obligation, loyalty, devotion"
+    },
+    "Nu": {
+      "effect": "Battle-cry",
+      "cost": 100,
+      "description": "Group, society, country, nation, union"
+    },
+    "Rey": {
+      "effect": "Color White",
+      "cost": 100,
+      "description": "Caring, virtue, kindness, joy, nobility"
+    },
+    "Vo": {
+      "effect": "Shroud",
+      "cost": 100,
+      "description": "Hidden, disguised, secret"
+    },
+    "Kel": {
+      "effect": "Burn",
+      "cost": 100,
+      "description": "Anger, aggression, rage, wrath"
+    },
+    "Et": {
+      "effect": "Color Red",
+      "cost": 100,
+      "description": "Want, urge, compulsion, lust"
+    },
+    "Soo": {
+      "effect": "Dispel",
+      "cost": 100,
+      "description": "Lost, solitary, alone"
+    },
+    "Ni": {
+      "effect": "Step",
+      "cost": 100,
+      "description": "Different, strange, unusual"
+    },
+    "Ve": {
+      "effect": "Faction",
+      "cost": 100,
+      "description": "Own, possess, shape, inside"
+    },
+    "Zyn": {
+      "effect": "Target Ally",
+      "cost": 100,
+      "description": "Leader, master, guidance, boss"
+    },
+    "Wi": {
+      "effect": "Element Fire",
+      "cost": 100,
+      "description": "Energy, spark, heat, bright, fire, south"
+    },
+    "Ap": {
+      "effect": "Talk",
+      "cost": 100,
+      "description": "Hear, listen, voice, sound"
+    },
+    "Ka": {
+      "effect": "Fear",
+      "cost": 100,
+      "description": "Sadness, lonesome, sorrow, lament, to cry"
+    },
+    "Zyl": {
+      "effect": "Flight",
+      "cost": 100,
+      "description": "Release, awaken, loose, refresh, open"
+    },
+    "Coh": {
+      "effect": "Changes to ATK",
+      "cost": 100,
+      "description": "Cut, separate, sharp"
+    },
+    "Xep": {
+      "effect": "Color Green",
+      "cost": 100,
+      "description": "Growth, progress, evolution"
+    },
+    "Del": {
+      "effect": "Reverse meaning",
+      "cost": 100,
+      "description": "Fall, forget, drop, loss, reflection"
+    },
+    "Cho": {
+      "effect": "Combat",
+      "cost": 100,
+      "description": "Big, tall, large, giant, territory"
+    },
+    "Sen": {
+      "effect": "Examine",
+      "cost": 100,
+      "description": "Under, below, beneath, down"
+    },
+    "Co": {
+      "effect": "Target Servant",
+      "cost": 100,
+      "description": "Follower, slave, dominated, servant, unwilling"
+    },
+    "Pel": {
+      "effect": "Confusion",
+      "cost": 100,
+      "description": "Rotate, mix, stir, congeal, start, begin"
+    },
+    "Fi": {
+      "effect": "Element Air",
+      "cost": 100,
+      "description": "Fly, levitate, transgress, rise, air, west"
+    },
+    "Deb": {
+      "effect": "Changes bio to SEX",
+      "cost": 100,
+      "description": "Reproduce, rebirth, transformation, intercourse"
+    },
+    "Zo": {
+      "effect": "Color Black",
+      "cost": 100,
+      "description": "Nothing, no one, void"
+    },
+    "Wic": {
+      "effect": "Color Blue",
+      "cost": 100,
+      "description": "Magick, spell, ritual, witch, mind"
+    },
+    "Nai": {
+      "effect": "Phase",
+      "cost": 100,
+      "description": "Essence, aura, spirit"
+    },
+    "Ket": {
+      "effect": "Battle",
+      "cost": 100,
+      "description": "Rebuttal, frustrate, belittle, prejudice"
+    },
+    "Tos": {
+      "effect": "Changes to SPD",
+      "cost": 100,
+      "description": "Speed, movement, quickly, to run"
+    },
+    "Ex": {
+      "effect": "Phase",
+      "cost": 100,
+      "description": "Cover, disguise, veil, screen, shelter"
+    },
+    "Kon": {
+      "effect": "Loyalty-",
+      "cost": 100,
+      "description": "Twist, bend, manipulate, fluxuate"
+    },
+    "Dus": {
+      "effect": "Casting",
+      "cost": 100,
+      "description": "Touch, feel, sense"
+    }
+  }
+}

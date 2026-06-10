@@ -1,0 +1,179 @@
+{
+  "name": "Test_Phase1",
+  "created_at": "2026-06-10T00:27:18.186514",
+  "last_played": "2026-06-10T00:27:18.186536",
+  "version": "1.0",
+  "characters": {
+    "char_001": {
+      "name": "AutoTest Hero",
+      "level": 10,
+      "tier": "Beginner",
+      "animal": "Rabbit",
+      "star": "Leo",
+      "species": "Phantom",
+      "species2": "",
+      "type": "Insect",
+      "type2": "",
+      "biorhythms": {
+        "MNF": 7,
+        "SPL": 11,
+        "BEU": 6,
+        "STR": 6,
+        "FND": 9,
+        "KNO": 7,
+        "UND": 3,
+        "WIS": 3,
+        "VIT": 0,
+        "SEX": 6,
+        "DIV": 7,
+        "EGO": 7
+      },
+      "thoughts": {
+        "Environment": 2,
+        "Emotion": -1,
+        "Subconscious": 8,
+        "Conscious": 1,
+        "Abstraction": 4,
+        "Perception": -6,
+        "State": 8
+      },
+      "stats": {
+        "HP": 1,
+        "ATK": 1,
+        "DEF": 1,
+        "SPD": 1,
+        "MP": 1
+      },
+      "gear_stats": {
+        "HP": 6,
+        "ATK": 6,
+        "DEF": 6,
+        "SPD": 6,
+        "MP": 6
+      },
+      "skills": {
+        "melee": "None",
+        "ranged": "None",
+        "magic": "None",
+        "step": "None",
+        "special": "None",
+        "trance": "None"
+      },
+      "species_traits": [
+        "Retrospect: The caster may remove a number of Memory counters to reduce the DEF or SPD of a target in their movement pattern by that amount.",
+        "Intangible: The caster may remove a number of Memory counters to move through that many objects.",
+        "Possession: The caster may remove a number of Memory counters to control any entity whose level is less than half that.",
+        "Vanish: The caster may not be targeted, but they may not move either.",
+        "Unresolved: The caster may remove a number of Memory counters to increase their ATK/DEF/SPD by half that.",
+        "Haunt: The caster may remove a number of Memory counters to reduce a target's MP by twice that much."
+      ],
+      "type_traits": [
+        "Hivemind: Allied spirits in the caster's attack pattern gain ATK/DEF/SPD equal to SPL until end of turn.",
+        "Nest: The caster may spawn a number of Insect tokens equal to SPL for a number of turns equal to SPL.",
+        "Mandibles: The caster may deal additional damage equal to SPL for a number of turns equal to SPL.",
+        "Swarm: Targets in the caster's attack pattern take damage equal to the caster's SPL for a number of turns equal to the caster's SPL.",
+        "Cocoon: The caster may increase their DEF by twice SPL if they reduce their ATK and SPD by SPL.",
+        "Pestilence: The caster may target an area where entities take damage equal to SPL for a number of turns equal to SPL."
+      ],
+      "species_passive": [
+        "Lingering: If this spirit ends two or more turns with no Memory counters on it, they receive damage equal to half their ATK.",
+        "Phantasmal: Once per turn, this spirit negates damage dealt to it and gains a number of Memory counters equal to the damage negated in this way."
+      ],
+      "type_passive": [
+        "Frenzy: If this spirit has no active effects in their attack pattern they lose MP equal to the number of spaces they moved in their last turn.",
+        "Evolve: This spirit gains ATK and SPD equal to the number of active effects in their attack pattern at the end of their previous turn."
+      ],
+      "description": "Offspring of Rabbit and Leo, born in the cosmic weave.",
+      "weapons": [],
+      "gear": {},
+      "constructs": [],
+      "runes": [],
+      "items": [],
+      "id": "char_001",
+      "inventory": [
+        "item_0002",
+        "item_0003"
+      ],
+      "equipment": {
+        "Head": null,
+        "Body": null,
+        "Hands": null,
+        "Legs": null,
+        "Feet": null,
+        "Other": null,
+        "Weapon": "item_0001"
+      }
+    }
+  },
+  "active_character_id": "char_001",
+  "items": {
+    "item_0001": {
+      "id": "item_0001",
+      "name": "Chro Lightning Ring",
+      "type": "Accessory",
+      "material": "Chrono",
+      "materia": "Thunder",
+      "level": 5,
+      "rarity": "Common",
+      "stats": {
+        "power": 5
+      },
+      "runes": [],
+      "traits": [
+        "Material (Chrono): Foresight: The caster gains DIV for each combat and non-combat check performed by the caster while this effect is active and their SPD is increased by half DIV for a number of turns equal to DIV.",
+        "Materia (Thunder): Shock: The caster may double knockback by an amount equal to SPL for a number of turns equal to SPL."
+      ],
+      "value": 20
+    },
+    "item_0002": {
+      "id": "item_0002",
+      "name": "Rept Ethereal Armor",
+      "type": "Armor",
+      "material": "Reptoid",
+      "materia": "Ghost",
+      "level": 10,
+      "rarity": "Rare",
+      "stats": {},
+      "runes": [],
+      "traits": [
+        "Material (Reptoid): Imitate: The caster may use the target's Type rather than their own for a number of turns equal to MNF.",
+        "Materia (Ghost): Evil-Eye: The target has their ATK and DEF reduced by DIV and their SPD increased by DIV for a number of turns equal to DIV."
+      ],
+      "value": 250,
+      "slot": "Legs",
+      "defense": 16,
+      "resistance": 9,
+      "weight": 22
+    },
+    "item_0003": {
+      "id": "item_0003",
+      "name": "Bast Psyc Talisman",
+      "type": "Accessory",
+      "material": "Bastet",
+      "materia": "Psychic",
+      "level": 15,
+      "rarity": "Rare",
+      "stats": {
+        "power": 10
+      },
+      "runes": [],
+      "traits": [
+        "Material (Bastet): Nimble: The caster may increase a target's SPD by SPL while reducing their own ATK by SPL for a number of turns equal to SPL.",
+        "Materia (Psychic): Telekinesis: The caster may apply Flying and Knockback to a number of objects in their attack pattern equal to MNF."
+      ],
+      "value": 220
+    }
+  },
+  "npcs": {},
+  "structures": {},
+  "factions": {},
+  "galaxies": {},
+  "time": {
+    "hour": 0,
+    "day": 0,
+    "week": 0,
+    "month": 0,
+    "year": 0,
+    "decade": 0
+  }
+}

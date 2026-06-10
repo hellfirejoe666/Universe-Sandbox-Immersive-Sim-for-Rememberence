@@ -1,0 +1,183 @@
+Custom Instructions 5.0
+(Updated January 16, 2026 – Aligned with Project Instructions 5.0 & Bridge Module)
+Pythonimport re
+import random
+from typing import Dict, Any, List
+
+# ── Core Data Structures ────────────────────────────────────────────────────────
+class ZodiacSign:
+    def __init__(self, name, biorhythms):
+        self.name = name
+        self.biorhythms = biorhythms or {}
+
+class Species:
+    def __init__(self, name, element, ability, base_stats, traits):
+        self.name = name
+        self.element = element or "Unknown"
+        self.ability = ability or ""
+        self.base_stats = base_stats or {'HP':0,'ATK':0,'DEF':0,'SPD':0,'MP':0}
+        self.traits = traits or []
+
+class Type_:
+    def __init__(self, name, color, bio_mapping, traits, move='Diag', attack='Omni'):
+        self.name = name
+        self.color = color or "Unknown"
+        self.bio_mapping = bio_mapping or {}
+        self.traits = traits or []
+        self.move = move
+        self.attack = attack
+
+class ClassStyle:
+    def __init__(self, category, name, bonuses, pattern, traits):
+        self.category = category
+        self.name = name
+        self.bonuses = bonuses or {}
+        self.pattern = pattern or "Lateral"
+        self.traits = traits or []
+
+# ── RMC Helpers (real metrics) ──────────────────────────────────────────────────
+def decompose_input(data):
+    if isinstance(data, dict): return [{k:v} for k,v in data.items()]
+    if isinstance(data, (list,tuple)): return [{f"item_{i}":item} for i,item in enumerate(data)]
+    return [data]
+
+def estimate_confidence(result, expected_keys=None):
+    if not isinstance(result, (dict,list)): return 0.5 if result is not None else 0.0
+    score = 1.0
+    if isinstance(result, dict):
+        if any(v<0 for v in result.values() if isinstance(v,(int,float))): score -= 0.3
+        if expected_keys and len(result)<expected_keys: score *= len(result)/expected_keys
+    if isinstance(result,dict) and 'State' in result and abs(result.get('State',0))<5: score += 0.1
+    return max(0.0, min(1.0, round(score,2)))
+
+def verify_results(sub_results):
+    caveats = []
+    for r in sub_results:
+        res, conf = r.get("result", {}), r.get("confidence", 0.0)
+        if conf < 0.4: caveats.append(f"Low conf sub-result: {conf}")
+        if isinstance(res,dict):
+            if 'HP' in res and res['HP']<=0: caveats.append("Invalid HP ≤ 0")
+            bio_keys = {'MNF','SPL','BEU','STR','FND','KNO','UND','WIS','VIT','SEX','DIV','EGO'}
+            if any(k not in bio_keys for k in res if isinstance(res[k],(int,float)) and k in bio_keys):
+                caveats.append("Unexpected biorhythm key")
+    return {"valid": len(caveats)==0, "caveats": caveats}
+
+def synthesize_results(sub_results):
+    merged = {}
+    for r in sorted(sub_results, key=lambda x: x.get("confidence",0), reverse=True):
+        if isinstance(r.get("result",{}), dict): merged.update(r["result"])
+    return merged
+
+def identify_weaknesses(verification): return verification.get("caveats", [])
+
+def refine_input(input_data, weaknesses):
+    if isinstance(input_data, dict):
+        refined = input_data.copy()
+        for w in weaknesses:
+            if "missing" in w.lower() or "low confidence" in w.lower():
+                if 'biorhythms' in str(input_data):
+                    refined.update(dict.fromkeys(['MNF','SPL','BEU','STR','FND','KNO','UND','WIS','VIT','SEX','DIV','EGO'], 0))
+        return refined
+    return input_data
+
+def recursive_meta_cognition(compute_func, input_data, threshold=0.8, depth=0, max_depth=5):
+    if depth > max_depth: return {"result":None, "confidence":0.0, "caveats":["Max depth exceeded"]}
+    sub_inputs = decompose_input(input_data)
+    sub_results = []
+    for sub in sub_inputs:
+        res = compute_func(sub)
+        conf = estimate_confidence(res, len(sub) if isinstance(sub,dict) else None)
+        sub_results.append({"result":res, "confidence":conf})
+    verification = verify_results(sub_results)
+    synthesized = synthesize_results(sub_results)
+    overall_conf = sum(r["confidence"] for r in sub_results)/len(sub_results) if sub_results else 0.0
+    if overall_conf < threshold:
+        weaknesses = identify_weaknesses(verification)
+        refined = refine_input(input_data, weaknesses)
+        return recursive_meta_cognition(compute_func, refined, threshold, depth+1, max_depth)
+    return {"result":synthesized, "confidence":overall_conf, "caveats":verification.get("caveats",[])}
+
+# ── Entity Class (bridge-integrated) ────────────────────────────────────────────
+class Entity:
+    TIER_SCALING = {
+        'NoviceI':1, 'BeginnerI':10, 'MediateI':100, 'AdvancedI':1000,
+        'MasterI':10000, 'DeityI':100000, 'MultiversalI':1000000,
+        'Exoversal':10000000, 'Xenoversal':100000000, 'Deltaversal':1000000000,
+        'Tetraversal':10000000000, 'Omniversal':100000000000
+    }
+
+    def __init__(self, name, description, animal_key, star_key, species_key, type_key, classes_dict, tier='NoviceI', gender_sliders=None):
+        self.name = name
+        self.description = description or "A newly awakened spirit"
+        self.animal_key = str(animal_key)
+        self.star_key = str(star_key)
+        self.species_key = str(species_key)
+        self.type_key = str(type_key)
+        self.tier = tier
+        self.gender_sliders = gender_sliders or {k:random.randint(-100,100) for k in ['Expression','Aesthetic','Imperative','Attraction']}
+        self.loyalty_map = {}
+        self.loyalty_rank = {}
+        self.status_effects = {}
+        self.shards = {'Spirit':[], 'Zodiac':[], 'Combat':[]}
+        self.gear = {}
+        self.runes = []
+        self.essences = []
+
+        # Bridge-powered stats
+        from rememberence_bridge import calculate_biorhythms, calculate_stats, generate_thoughts
+        self.biorhythms = calculate_biorhythms(self.animal_key, self.star_key)
+        self.combat = calculate_stats(self.biorhythms, self.species_key, self.type_key, level=1)
+        self.thoughts = generate_thoughts(self.biorhythms)
+        self.move_pattern = "Diag"   # override from type data in full parse
+        self.attack_pattern = "Omni"
+
+        # Classes
+        self.classes = {}
+        for cat, num_str in classes_dict.items():
+            num = str(num_str)
+            if cat in data.get('classes', {}) and num in data['classes'][cat]:
+                self.classes[cat] = data['classes'][cat][num]
+                for stat in ['ATK','DEF','SPD']:
+                    self.combat[stat] = self.combat.get(stat,0) + self.classes[cat].get('bonuses',{}).get(stat,0)
+
+        self.apply_tier_scaling()
+
+    def apply_tier_scaling(self):
+        factor = self.TIER_SCALING.get(self.tier, 1)
+        for stat in self.combat:
+            self.combat[stat] = int(self.combat.get(stat,0) * factor)
+
+    def to_sheet(self):
+        lines = [
+            f"({self.name}): Level = 0 [{self.tier}]",
+            f"[{self.description}]",
+            "",
+            f"Species; {data.get('species',{}).get(self.species_key,{}).get('name','?')}",
+            f"Element; {data.get('species',{}).get(self.species_key,{}).get('element','?')}",
+            f"({data.get('animals',{}).get(self.animal_key,{}).get('name','?')})",
+            f"Traits; {self.traits[0] if hasattr(self,'traits') else 'None'}",
+            "",
+            f"Type; {data.get('types',{}).get(self.type_key,{}).get('name','?')}",
+            f"Color; {data.get('types',{}).get(self.type_key,{}).get('color','?')}",
+            f"({data.get('stars',{}).get(self.star_key,{}).get('name','?')})",
+            f"Traits; {self.traits[1] if hasattr(self,'traits') and len(self.traits)>1 else 'None'}",
+            "",
+            "~~~~~~~~~~~~~~~~[Combat]~~~~~~~~~~~~~~~~~",
+            *[f"{k.upper()}  = {v}" for k,v in self.combat.items()],
+            f"Move:   {self.move_pattern}",
+            f"Attack: {self.attack_pattern}",
+            "",
+            "~~~~~~~~~~~~~~~~[Biorhythms]~~~~~~~~~~~~~",
+            *[f"{k} = {v}" for k,v in self.biorhythms.items()],
+            "",
+            "~~~~~~~~~~~~~~~~[Thoughts]~~~~~~~~~~~~~~~",
+            str(self.thoughts),
+            "",
+            "Gender/Sexuality Sliders:",
+            str(self.gender_sliders),
+            "",
+            "Class Styles:"
+        ]
+        for cat, cls in self.classes.items():
+            lines.append(f"{cat}: {cls.get('name', 'Unknown')}")
+        return "\n".join(lines)

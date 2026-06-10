@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Spirit - Rememberence</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="oracle-container">
+        <header class="oracle-header">
+            <h1>✧ The Six Gates ✧</h1>
+            <p class="subtitle">Forge Your Spirit in the Depths of Rememberence</p>
+        </header>
+
+        <main class="wizard-main">
+            <!-- Progress indicator -->
+            <div class="wizard-progress">
+                <div class="progress-step" data-step="0">1. Animal</div>
+                <div class="progress-step" data-step="1">2. Star</div>
+                <div class="progress-step" data-step="2">3. Species</div>
+                <div class="progress-step" data-step="3">4. Type</div>
+                <div class="progress-step" data-step="4">5. Class</div>
+                <div class="progress-step" data-step="5">6. Skill</div>
+            </div>
+
+            <!-- Wizard content container -->
+            <div id="wizard-container">
+                <!-- Content rendered by wizard.js -->
+            </div>
+        </main>
+
+        <footer class="oracle-footer">
+            <p>Once you have heard the Spirits' call, there is no turning back, only moving forward.</p>
+        </footer>
+    </div>
+
+    <!-- Load core libraries -->
+    <script src="/static/js/constants.js"></script>
+    <script src="/static/js/generator.js"></script>
+    <script src="/static/js/wizard.js"></script>
+
+    <script>
+        // Initialize wizard on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            window.initWizard();
+            updateProgressIndicator(0);
+        });
+
+        // Update progress indicator
+        function updateProgressIndicator(step) {
+            const steps = document.querySelectorAll('.progress-step');
+            steps.forEach((s, index) => {
+                if (index <= step) {
+                    s.classList.add('active');
+                } else {
+                    s.classList.remove('active');
+                }
+            });
+        }
+
+        // Override the wizard step render to update progress
+        const originalRenderWizardStep = window.renderWizardStep;
+        window.renderWizardStep = function() {
+            if (originalRenderWizardStep) {
+                originalRenderWizardStep();
+            }
+            updateProgressIndicator(wizardState.step);
+        };
+    </script>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .oracle-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .oracle-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+        }
+
+        .oracle-header h1 {
+            font-size: 2.5rem;
+            margin: 0 0 0.5rem 0;
+            color: #ffd700;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+        }
+
+        .subtitle {
+            color: #aaa;
+            font-size: 1.1rem;
+            font-style: italic;
+            margin: 0;
+        }
+
+        .wizard-progress {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+        }
+
+        .progress-step {
+            flex: 1;
+            text-align: center;
+            padding: 0.5rem;
+            color: #666;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .progress-step.active {
+            color: #ffd700;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+
+        .wizard-main {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .oracle-footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        .error {
+            color: #ff6b6b;
+            font-weight: bold;
+            padding: 1rem;
+            background: rgba(255, 107, 107, 0.1);
+            border-radius: 4px;
+        }
+    </style>
+</body>
+</html>

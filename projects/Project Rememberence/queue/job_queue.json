@@ -1,0 +1,111 @@
+[
+  {
+    "id": "064fdcc47797",
+    "type": "test",
+    "service": "test_service",
+    "params": {
+      "iteration": 0
+    },
+    "priority": "normal",
+    "fallback_local": true,
+    "callback_url": null,
+    "created": "2026-04-06T11:42:59.272774",
+    "attempts": 1,
+    "status": "completed",
+    "result": {
+      "mock_result": true,
+      "type": "test",
+      "params": {
+        "iteration": 0
+      }
+    },
+    "error": null,
+    "completed": "2026-04-06T11:42:59.379521"
+  },
+  {
+    "id": "1c5c25c5274a",
+    "type": "test",
+    "service": "test_service",
+    "params": {
+      "iteration": 1
+    },
+    "priority": "normal",
+    "fallback_local": true,
+    "callback_url": null,
+    "created": "2026-04-06T11:42:59.274287",
+    "attempts": 1,
+    "status": "completed",
+    "result": {
+      "mock_result": true,
+      "type": "test",
+      "params": {
+        "iteration": 1
+      }
+    },
+    "error": null,
+    "completed": "2026-04-06T11:42:59.481731"
+  },
+  {
+    "id": "e020a3fc5d77",
+    "type": "test",
+    "service": "test_service",
+    "params": {
+      "iteration": 2
+    },
+    "priority": "normal",
+    "fallback_local": true,
+    "callback_url": null,
+    "created": "2026-04-06T11:42:59.275042",
+    "attempts": 0,
+    "status": "fallback",
+    "result": {
+      "fallback": true,
+      "reason": "Rate limited, wait 60s",
+      "retry_after": 59.795793533325195
+    },
+    "error": null,
+    "completed": "2026-04-06T11:42:59.481758"
+  },
+  {
+    "id": "81a2f72710cc",
+    "type": "test",
+    "service": "test_service",
+    "params": {
+      "iteration": 3
+    },
+    "priority": "normal",
+    "fallback_local": true,
+    "callback_url": null,
+    "created": "2026-04-06T11:42:59.275812",
+    "attempts": 0,
+    "status": "fallback",
+    "result": {
+      "fallback": true,
+      "reason": "Rate limited, wait 60s",
+      "retry_after": 59.79577374458313
+    },
+    "error": null,
+    "completed": "2026-04-06T11:42:59.481771"
+  },
+  {
+    "id": "073040c1e7cb",
+    "type": "test",
+    "service": "test_service",
+    "params": {
+      "iteration": 4
+    },
+    "priority": "normal",
+    "fallback_local": true,
+    "callback_url": null,
+    "created": "2026-04-06T11:42:59.276624",
+    "attempts": 0,
+    "status": "fallback",
+    "result": {
+      "fallback": true,
+      "reason": "Rate limited, wait 60s",
+      "retry_after": 59.79576277732849
+    },
+    "error": null,
+    "completed": "2026-04-06T11:42:59.481779"
+  }
+]

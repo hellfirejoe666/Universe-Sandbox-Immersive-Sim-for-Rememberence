@@ -1,0 +1,63 @@
+{
+  "player_id": "test_player",
+  "playthrough_start": "2026-06-09T00:45:39.569531",
+  "current_week": 5,
+  "npcs": {
+    "npc_001": {
+      "name": "Featherwing",
+      "type": "Dragon/Scorpio"
+    }
+  },
+  "factions": {
+    "fct_001": {
+      "name": "Crystal Collective"
+    }
+  },
+  "towns": {
+    "twn_001": {
+      "name": "Crystalhaven",
+      "population": 500
+    }
+  },
+  "worlds": {},
+  "systems": {},
+  "narratives": {
+    "npc_001": {
+      "entity_type": "npc",
+      "text": "Featherwing is a Dragon/Scorpio whose contemplative nature masks fierce loyalty.",
+      "generated_at": "2026-06-09T00:45:39.569580",
+      "context": {
+        "week": 3,
+        "location": "Crystalhaven"
+      },
+      "view_count": 0
+    },
+    "fct_001": {
+      "entity_type": "faction",
+      "text": "The Crystal Collective operates from shadows, seeking to perfect selective forgetting.",
+      "generated_at": "2026-06-09T00:45:39.569591",
+      "context": {
+        "week": 5,
+        "action": "researching"
+      },
+      "view_count": 0
+    }
+  },
+  "discovered_entities": [
+    "npc_001",
+    "fct_001"
+  ],
+  "witnessed_events": [
+    {
+      "week": 5,
+      "timestamp": "2026-06-09T00:45:39.569601",
+      "faction": "Crystal Collective",
+      "action": "discovered technique",
+      "success": true,
+      "narrative": "In week 5, the Crystal Collective made a breakthrough in memory technique.",
+      "narrative_id": "evt_000"
+    }
+  ],
+  "last_save": "2026-06-09T00:45:39.569596",
+  "total_play_time": 0
+}

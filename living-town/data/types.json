@@ -1,0 +1,556 @@
+{
+  "types": {
+    "Thunder": {
+      "traits": {
+        "active": [
+          "Stun: The target may not move for a number of turns equal to SPL.",
+          "Storm: The caster may increase their ATK and SPD by an amount equal to SPL for a number of turns equal to SPL.",
+          "Flash: The caster may increase or decrease non-combat checks by SPL.",
+          "Static: The caster may target an area where hostile entities lose SPD and ATK equal to SPL for a number of turns equal to SPL.",
+          "Lightning: The caster may select a number of targets up to SPL in their attack pattern and reduce their SPD by SPL.",
+          "Shock: The caster may double knockback by an amount equal to SPL for a number of turns equal to SPL."
+        ],
+        "passive": [
+          "Electric: This spirit gains Charge counters each turn equal to the number of abilities used in their last turn which can be spent to increase MP and the damage of future abilities.",
+          "Overload: If the number of Charge counters on this spirit is greater than the number of abilities they used in their previous turn they receive damage equal to the number of counters and end their turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "SPL",
+        "ATK": "KNO",
+        "DEF": "WIS",
+        "SPD": "DIV",
+        "MP": "SEX"
+      }
+    },
+    "Warrior": {
+      "traits": {
+        "active": [
+          "MultiStrike: The caster may make a number of additional attacks equal to STR.",
+          "Berserker: The caster may increase a target's ATK and DEF by STR while reducing their SPD by STR.",
+          "Tactical: The caster may increase their SPD by twice STR while dodging or their DEF by twice STR while blocking once per turn.",
+          "Intimidate: The caster may reduce all the combat and non-combat checks of a target in their attack pattern by STR.",
+          "Duelist: A target in the caster's attack pattern may only target the caster for a number of turns equal to STR.",
+          "Resolve: The caster's DEF and HP are increased by STR for a number of turns equal to STR."
+        ],
+        "passive": [
+          "Hardened: This spirit automatically performs a Critical Success after three consecutive successful checks of any kind.",
+          "Stubborn: After a Critical Success this spirit may not perform another Critical Success for a number of turns equal to the number of actions they took in the previous turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "MNF",
+        "ATK": "STR",
+        "DEF": "VIT",
+        "SPD": "SEX",
+        "MP": "EGO"
+      }
+    },
+    "Spellcaster": {
+      "traits": {
+        "active": [
+          "Shroud: The caster may not be the target of spells or abilities for a number of turns equal to SPL.",
+          "Barrage: The caster may choose a number of targets in their attack pattern equal to SPL; these attacks are always a Critical Success.",
+          "Protect: For a number of turns equal to SPL the caster may negate non-physical damage up to SPL.",
+          "Whisper: The caster may increase or decrease any non-combat checks in their attack pattern by SPL.",
+          "Swap: The caster may choose a target within a number of spaces in their attack pattern equal to SPL and switch positions with them.",
+          "Librarian: The caster may perform a number of additional perception checks equal to SPL."
+        ],
+        "passive": [
+          "Arcane: This spirit restores MP each turn equal to the number of active effects in their attack pattern.",
+          "Magipsychosis: When this spirit uses any abilities each successive ability has its MP cost multiplied by the total number of abilities used that turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "BEU",
+        "ATK": "KNO",
+        "DEF": "DIV",
+        "SPD": "SEX",
+        "MP": "SPL"
+      }
+    },
+    "Pyro": {
+      "traits": {
+        "active": [
+          "Inferno: The caster may deal damage to a target equal to SPL for a number of turns equal to SPL.",
+          "Flames: For a number of turns equal to SPL when the caster is attacked the target may take damage equal to SPL.",
+          "Embers: Once per turn the caster may increase any non-combat checks in their attack pattern by twice SPL.",
+          "Wildfire: The caster may target an area equal to SPL and all entities in that area receive damage equal to SPL for a number of turns equal to SPL.",
+          "Cinders: The caster may reduce their HP by SPL to remove a number of counters up to SPL from a target.",
+          "Passion: The caster may increase their ATK and SPD by SPL while reducing their DEF by SPL for a number of turns equal to SPL."
+        ],
+        "passive": [
+          "Flameborn: This spirit gains HP each turn equal to the number of active effects that do damage per turn in their movement pattern.",
+          "Burnout: This spirit loses MP per turn equal to the number of abilities they used in their previous turn multiplied by the number of active effects in their movement pattern."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "EGO",
+        "ATK": "KNO",
+        "DEF": "WIS",
+        "SPD": "STR",
+        "MP": "SPL"
+      }
+    },
+    "Plant": {
+      "traits": {
+        "active": [
+          "Poison: If the caster takes damage this turn the target takes damage equal to the caster's MNF for a number of turns equal to MNF.",
+          "Rooted: The caster may increase their DEF by twice MNF and reduce their SPD by MNF.",
+          "LeachSeed: The caster may target an area equal to MNF while entities in that area reduce their DEF and SPD by MNF and the caster gains HP equal to the number of entities.",
+          "Photosynthesis: The caster may increase their HP and MP by MNF each turn for a number of turns equal to MNF as long as they are in light.",
+          "Bloom: For a number of turns equal to MNF targets in the caster's attack pattern may receive damage equal to MNF each turn.",
+          "Entangle: When the caster is dealt damage this turn they may reduce that damage by MNF and deal damage equal to MNF to an entity in their attack pattern."
+        ],
+        "passive": [
+          "Nature: This spirit gains HP per turn equal to the number of abilities they used in the previous turn.",
+          "Nurture: This spirit loses MP each turn equal to the number of active effects in their attack pattern."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "FND",
+        "ATK": "BEU",
+        "DEF": "STR",
+        "SPD": "EGO",
+        "MP": "MNF"
+      }
+    },
+    "Fairy": {
+      "traits": {
+        "active": [
+          "Flying: The caster may move over a number of walls equal to DIV and may not be targeted without Reach.",
+          "Dusting: The caster may choose either to restore a target's HP by DIV, reduce a target's DEF by DIV, or increase a non-combat check by DIV.",
+          "Shifted: The caster may negate a number of combat steps equal to DIV while this effect is active.",
+          "Riddle: Once per turn the caster may gain a number of Riddle counters equal to DIV which can be used for any check involving DIV.",
+          "Trickster: A target in the caster's attack pattern chooses one of ATK/DEF/SPD and the caster sets that value to a number between 0 and their DIV.",
+          "Whisp: As long as the caster isn't targeted they may negate a target spell or ability cast for less than DIV."
+        ],
+        "passive": [
+          "Lumos: This spirit may move through a number of objects equal to the number of abilities they used in the previous turn.",
+          "Capricious: If this spirit deals or receives damage from a spell or ability they lose MP equal to half its cost."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "UND",
+        "ATK": "KNO",
+        "DEF": "WIS",
+        "SPD": "SEX",
+        "MP": "DIV"
+      }
+    },
+    "Beast": {
+      "traits": {
+        "active": [
+          "Trample: The target's SPD is reduced by the caster's STR and does not recover in their next turn.",
+          "Prey: The caster may increase their SPD by STR for a number of turns equal to STR.",
+          "Predator: The caster may deal additional damage equal to the number of spaces they moved this turn up to twice STR.",
+          "Pack: The caster may increase the ATK and SPD of allies within their attack pattern equal to STR.",
+          "Scent: For a number of turns equal to STR the caster may reduce the target's DEF by STR during the combat step.",
+          "Territorial: The caster may target an area up to STR where allied entities gain HP equal to STR and hostile entities have their DEF reduced by STR."
+        ],
+        "passive": [
+          "Wild: This spirit gains HP equal to half the number of spaces they moved outdoors in the previous turn.",
+          "Instinctual: If this spirit's HP is less than half then they lose HP equal to the number of abilities they used in the previous turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "DIV",
+        "ATK": "STR",
+        "DEF": "FND",
+        "SPD": "KNO",
+        "MP": "MNF"
+      }
+    },
+    "Aqua": {
+      "traits": {
+        "active": [
+          "Ripple: The caster may not be the target of a number of spells or abilities equal to MNF for a number of turns equal to MNF.",
+          "Mirror: For a number of turns equal to MNF the caster may increase their DEF by MNF and reflect damage received up to MNF.",
+          "Liquify: The caster may select a space in their attack pattern within a number of spaces equal to MNF and move there while increasing their SPD by MNF.",
+          "Currents: The caster selects a target in their attack pattern within a number of spaces equal to MNF and moves the target to the caster's location.",
+          "Acidic: Targets in melee range of the caster lose DEF equal to MNF for a number of turns equal to MNF.",
+          "Hydrate: The caster may increase or decrease non-combat checks in their attack pattern up to MNF and increase a target's MP by MNF."
+        ],
+        "passive": [
+          "Fluidity: This spirit increases their MP and DEF based on the number of abilities they used in their previous turn.",
+          "Emotional: After performing a Critical Success the next check is always a Critical Failure and after performing a Critical Failure the next check is always a Critical Success."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "WIS",
+        "ATK": "KNO",
+        "DEF": "SEX",
+        "SPD": "DIV",
+        "MP": "SPL"
+      }
+    },
+    "Undead": {
+      "traits": {
+        "active": [
+          "Feeding: When the caster deals damage its HP is increased by an amount up to MNF.",
+          "Necrosis: For a number of turns equal to MNF the target loses HP equal to the number of spaces they move up to MNF.",
+          "Syphon: Targets in the caster's attack pattern lose MP equal to MNF and the caster gains MP equal to the combined total lost.",
+          "Deathwalk: If the caster would be destroyed while under this effect they may instead set their HP to MNF; they may not enter combat until end of turn.",
+          "Regret: The caster may target an area where entities within that area have their SPD reduced by twice MNF for a number of turns equal to MNF.",
+          "Undying: The caster may increase their DEF by twice MNF, remove a number of counters equal to MNF, and reduce their SPD by MNF."
+        ],
+        "passive": [
+          "Unyielding: This spirit regenerates HP and MP equal to the amount of SPD they have remaining at the end of their turn.",
+          "Cursed: This spirit loses HP and MP equal to the number of spaces they moved in their previous turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "UND",
+        "ATK": "VIT",
+        "DEF": "MNF",
+        "SPD": "EGO",
+        "MP": "FND"
+      }
+    },
+    "Fiend": {
+      "traits": {
+        "active": [
+          "Terror: The target's ATK/DEF/SPD are reduced by caster's WIS for a number of turns equal to WIS.",
+          "Reever: The target loses MP equal to WIS and the caster gains MP equal to WIS for a number of turns equal to WIS.",
+          "Betrayer: For a number of turns equal to WIS the target takes additional damage equal to WIS from all attacks.",
+          "Malevolence: For a number of turns equal to WIS the caster gains ATK and SPD equal to WIS and their DEF is reduced by WIS.",
+          "Nightmare: The caster may spawn a number of Fiend tokens equal to WIS which have ATK/DEF/SPD equal to WIS until end of turn.",
+          "Cruelty: The caster may increase their damage during the combat step equal to WIS for each combat step this turn."
+        ],
+        "passive": [
+          "Bringer: This spirit gains ATK and HP equal to the amount of damage dealt to them in the previous turn while in darkness.",
+          "Relentless: This spirit must attack each turn if able or lose MP equal to their DEF."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "SEX",
+        "ATK": "EGO",
+        "DEF": "VIT",
+        "SPD": "BEU",
+        "MP": "STR"
+      }
+    },
+    "Insect": {
+      "traits": {
+        "active": [
+          "Swarm: Targets in the caster's attack pattern take damage equal to the caster's SPL for a number of turns equal to the caster's SPL.",
+          "Nest: The caster may spawn a number of Insect tokens equal to SPL for a number of turns equal to SPL.",
+          "Mandibles: The caster may deal additional damage equal to SPL for a number of turns equal to SPL.",
+          "Hivemind: Allied spirits in the caster's attack pattern gain ATK/DEF/SPD equal to SPL until end of turn.",
+          "Pestilence: The caster may target an area where entities take damage equal to SPL for a number of turns equal to SPL.",
+          "Cocoon: The caster may increase their DEF by twice SPL if they reduce their ATK and SPD by SPL."
+        ],
+        "passive": [
+          "Evolve: This spirit gains ATK and SPD equal to the number of active effects in their attack pattern at the end of their previous turn.",
+          "Frenzy: If this spirit has no active effects in their attack pattern they lose MP equal to the number of spaces they moved in their last turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "SPL",
+        "ATK": "VIT",
+        "DEF": "EGO",
+        "SPD": "STR",
+        "MP": "KNO"
+      }
+    },
+    "Vortex": {
+      "traits": {
+        "active": [
+          "Flying: The caster may move over a number of walls equal to UND.",
+          "Tempest: The caster may target an area up to UND where entities lose SPD equal to twice UND if UND is greater than their DEF.",
+          "Twister: The target gains Flying equal to UND and their SPD is increased by UND until end of turn.",
+          "Rotation: The caster may increase their DEF by UND knockback by UND until end of turn.",
+          "Gusts: The target gains SPD equal to twice UND until end of turn as long as they do not receive damage.",
+          "Skywalker: The caster may select an area up to UND where allied entities gain MP equal to UND and hostile entities lose SPD equal to UND."
+        ],
+        "passive": [
+          "Swiftness: This spirit gains MP each turn equal to the number of spaces they moved in the previous turn.",
+          "Diffuse: This spirit loses MP each turn equal to the number of checks they were involved with in the previous turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "WIS",
+        "ATK": "KNO",
+        "DEF": "UND",
+        "SPD": "DIV",
+        "MP": "MNF"
+      }
+    },
+    "Dragoon": {
+      "traits": {
+        "active": [
+          "Vigilance: The caster may move and cast a number of times equal to DIV after attacking.",
+          "Dragonkin: The caster and allies in their attack pattern gain ATK and DEF equal to DIV until end of turn.",
+          "Lancer: Once per turn the caster may deal additional damage equal to twice DIV during the combat step.",
+          "Leap: The caster can move to any point in their attack pattern while increasing their ATK and SPD by DIV.",
+          "Judgement: The caster may multiply their ATK by DIV if the target's HP is less than half but the check is always considered a Critical Failure.",
+          "Uplift: The caster may increase or decrease any combat or non-combat checks in their attack pattern by DIV as long as the result is less than DIV."
+        ],
+        "passive": [
+          "Valor: This spirit gains ATK and DEF equal to the number of hostile entities in their attack pattern.",
+          "Honor: This spirit loses ATK and DEF if the number of allied entities is greater than the number of hostile entities equal to the difference."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "DIV",
+        "ATK": "STR",
+        "DEF": "VIT",
+        "SPD": "SPL",
+        "MP": "WIS"
+      }
+    },
+    "Metal": {
+      "traits": {
+        "active": [
+          "Living Armor: The caster may be equipped to another spirit for a number of turns up to their SPL or Nanite counters.",
+          "Augmentation: The caster may increase or decrease any combat or non-combat checks they are involved with up to their SPL or Nanite counters.",
+          "Repair: The caster may increase their HP up to their SPL or Nanite counters twice per turn.",
+          "Cybernetic: The caster may increase their SPD or ATK by SPL or Nanite counters for a number of turns equal to SPL or Nanite counters.",
+          "Metallic: For a number of turns equal to SPL or Nanite counters the caster may negate damage up to SPL or Nanite counters.",
+          "Technomancy: The caster may control constructs within melee range whose level is less than SPL or Nanite counters for a number of turns equal to SPL or Nanite counters."
+        ],
+        "passive": [
+          "Nanites: This spirit gains a number of Nanite counters each turn equal to the number of checks they were involved with in the previous turn.",
+          "Dependency: If this spirit doesn't have any Nanite counters on them at the end of their turn their MP is reduced to 0 and their next check is a Critical Failure."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "UND",
+        "ATK": "KNO",
+        "DEF": "SEX",
+        "SPD": "VIT",
+        "MP": "FND"
+      }
+    },
+    "Rock": {
+      "traits": {
+        "active": [
+          "Defender: The caster may block for a number of spirits in their movement pattern equal to STR.",
+          "Landslide: The caster may target an area where entities take additional damage equal to STR while their SPD is reduced by STR.",
+          "Rockwall: Allied entities in the caster's attack pattern restore HP equal to STR and increase DEF by twice STR until end of turn.",
+          "Seismic: The caster may choose a target in their attack pattern and apply knockback to that entity equal to twice STR.",
+          "Pillars: For a number of turns equal to STR allied entities in the caster's attack pattern gain DEF equal to STR and hostile entities in the caster's attack pattern lose ATK equal to STR.",
+          "Erosion: The target has their DEF reduced by STR and their MP reduced by STR for a number of turns equal to STR."
+        ],
+        "passive": [
+          "Enduring: This spirit increases their DEF by the total number of counters on them in their previous turn.",
+          "Immovable: This spirit loses MP each turn equal to the number of spaces they move."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "FND",
+        "ATK": "STR",
+        "DEF": "MNF",
+        "SPD": "EGO",
+        "MP": "KNO"
+      }
+    },
+    "Normal": {
+      "traits": {
+        "active": [
+          "Battle-Cry: Target allied spirit gains ATK/DEF/SPD equal to the caster's STR plus Force counters until end of turn.",
+          "Willpower: Once per turn the caster may negate target spell or ability cast for less than STR plus Force counters.",
+          "Steadfast: The caster's DEF is increased by STR plus Force counters and may not receive Critical Hits/Fails for a number of turns equal to STR plus Force counters.",
+          "Focus: The caster may increase their ATK and DEF by STR plus Force counters for a number of turns equal to STR plus Force counters.",
+          "Intention: This effect is treated as the nearest active effect to the caster for a number of turns equal to STR plus Force counters.",
+          "Pressure: The caster may multiply their ATK and SPD by STR plus Force counters and all checks are treated as Critical Failures until end of turn."
+        ],
+        "passive": [
+          "Adaptable: This spirit gains Force counters equal to the number of checks they were involved with in the previous turn.",
+          "Unassuming: If this spirit ends their turn with no Force counters their MP and SPD are reduced to 0 until their next turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "KNO",
+        "ATK": "STR",
+        "DEF": "FND",
+        "SPD": "VIT",
+        "MP": "UND"
+      }
+    },
+    "Psychic": {
+      "traits": {
+        "active": [
+          "Confusion: Targets in the caster's attack pattern may take action at random for a number of turns equal to MNF.",
+          "Telepathy: The caster may move a number of counters up to MNF to and from any entity in their attack pattern.",
+          "Telekinesis: The caster may apply Flying and Knockback to a number of objects in their attack pattern equal to MNF.",
+          "Mindpalace: The caster may increase their DEF by MNF and negate a target active effect cast for less than MNF.",
+          "Pulsar: Once per turn the caster may multiply damage dealt to a target by MNF but this check is always considered a Critical Failure.",
+          "Insight: Once per turn the caster may increase or decrease any non-combat checks in their attack pattern up to twice MNF."
+        ],
+        "passive": [
+          "Intuition: This spirit gains MP equal to the number of abilities they used in the previous turn for each check they are involved with this turn.",
+          "Overthinking: This spirit has their SPD and non-combat checks reduced by the number of abilities they used in the previous turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "STR",
+        "ATK": "KNO",
+        "DEF": "BEU",
+        "SPD": "SPL",
+        "MP": "DIV"
+      }
+    },
+    "Ghost": {
+      "traits": {
+        "active": [
+          "Phase: The caster may move through a number of walls equal to DIV.",
+          "Etherwalk: Targets within the caster's attack pattern have their DEF reduced by twice DIV during the combat step.",
+          "Memories: Once per turn the caster may spawn a token that has the same ATK/DEF/SPD as the target for a number of turns equal to DIV.",
+          "Soulbound: The target and the caster become linked for a number of turns equal to DIV where all changes to HP and MP are shared.",
+          "Evil-Eye: The target has their ATK and DEF reduced by DIV and their SPD increased by DIV for a number of turns equal to DIV.",
+          "Lingering: Allied entities in the caster's attack pattern gain DEF equal to twice DIV until end of turn."
+        ],
+        "passive": [
+          "Presence: This spirit increases their SPD by the number of abilities they used in the previous turn as long as they remain untargeted.",
+          "Regrets: This spirit loses MP each turn equal to the number of abilities they used in the previous turn as long as they remain targeted."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "MNF",
+        "ATK": "UND",
+        "DEF": "SEX",
+        "SPD": "DIV",
+        "MP": "EGO"
+      }
+    },
+    "Crystal": {
+      "traits": {
+        "active": [
+          "Shroud: The caster may not be the target of spells or abilities for a number of turns equal to SEX.",
+          "Reflect: The caster may reflect an amount of damage equal to SEX back to the damage source.",
+          "Clarity: During the combat step the caster may increase damage dealt to a target up to SEX.",
+          "Facets: Once per turn the caster may choose a new target for any spell or ability in their attack pattern cast for less than SEX.",
+          "Shatter: For a number of turns equal to SEX the target loses DEF equal to SEX and must be the target of any attacks in their movement pattern.",
+          "Recursion: For each time the caster is dealt damage they gain a number of counters equal to SEX and at the end of their turn they regenerate HP equal to the number of counters."
+        ],
+        "passive": [
+          "Unbroken: This spirit reduces counters applied to them equal to their remaining SPD at the end of turn.",
+          "Brittle: This spirit loses DEF and HP each turn equal to the number of combat steps they were involved with in their previous turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "KNO",
+        "ATK": "VIT",
+        "DEF": "SEX",
+        "SPD": "DIV",
+        "MP": "BEU"
+      }
+    },
+    "Blood": {
+      "traits": {
+        "active": [
+          "LifeLink: If this spirit does damage it may recover HP up to EGO.",
+          "Bloodrush: The caster's SPD is increased by EGO for a number of turns equal to EGO.",
+          "Bloodwalk: If the caster deals damage they may increase their MP up to EGO.",
+          "Pact: Target ally entity is linked to the caster for a number of turns equal to EGO where any damage dealt to the target is drained from the caster's MP instead.",
+          "Mortality: For a number of turns equal to EGO the caster may target an area where all damage dealt regenerates the caster instead.",
+          "Crimson: Allied entities in the caster's attack pattern gain HP equal to EGO while hostile entities in the caster's attack pattern lose HP equal to EGO."
+        ],
+        "passive": [
+          "Vitality: This spirit gains HP equal to the number of abilities used in their previous turn.",
+          "Bleeding: This spirit receives damage at the end of each turn equal to the amount of SPD they used that turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "MNF",
+        "ATK": "SPL",
+        "DEF": "EGO",
+        "SPD": "STR",
+        "MP": "UND"
+      }
+    },
+    "Ice": {
+      "traits": {
+        "active": [
+          "Frostbite: Reduces the target's DEF and SPD by the caster's SPL for a number of turns equal to SPL.",
+          "Glacial: The caster may target an area up to SPL and entities can not enter that area for a number of turns equal to SPL.",
+          "Hailstorm: The caster may target an area where entities have their SPD reduced by SPL and all their perception checks are Critical Failures.",
+          "Flash-Freeze: Targets in the caster's attack pattern have their SPD reduced by twice SPL for a number of turns equal to SPL.",
+          "Arctic: For a number of turns equal to SPL targets in melee range of the caster have their ATK reduced by twice SPL.",
+          "Blizzard: In an area around the caster equal to SPL for a number of turns equal to SPL all entities are incapable of targeting beyond melee range."
+        ],
+        "passive": [
+          "Frozen: This spirit regenerates MP each turn equal to their remaining SPD at the end of the turn.",
+          "Pyrophobia: This spirit loses HP each turn equal to the number of damage over time counters applied to them at the end of the turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "FND",
+        "ATK": "SPL",
+        "DEF": "UND",
+        "SPD": "EGO",
+        "MP": "SEX"
+      }
+    },
+    "Holy": {
+      "traits": {
+        "active": [
+          "Vigilance: The caster may move and cast a number of times equal to FND after attacking.",
+          "Intervention: The caster may increase the HP and DEF of a target in their attack pattern by FND for a number of turns equal to FND.",
+          "Retribution: A target in the caster's attack pattern receives increased damage from all attacks equal to FND for a number of turns equal to FND.",
+          "Sanctuary: The caster may target an area where all allied entities gain HP equal to FND for a number of turns equal to FND.",
+          "Revelation: The caster may increase any perception checks by FND for a number of turns equal to FND.",
+          "Blessing: Target allied entity gains ATK/DEF/SPD equal to FND for a number of turns equal to FND."
+        ],
+        "passive": [
+          "Divine: Allied entities in this spirit's attack pattern gain HP equal to the number of spaces this spirit moved in their last turn.",
+          "Morality: This spirit loses MP equal to twice the value of their last non-combat check when their Loyalty with another entity is reduced."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "DIV",
+        "ATK": "UND",
+        "DEF": "WIS",
+        "SPD": "EGO",
+        "MP": "BEU"
+      }
+    },
+    "Curse": {
+      "traits": {
+        "active": [
+          "Fear: Target's ATK/DEF/SPD is reduced by caster's MNF for a number of turns equal to MNF.",
+          "Hex: The target chooses one of ATK/DEF/SPD and reduces it by MNF they lose HP equal to MNF for a number of turns equal to MNF.",
+          "Backlash: When receiving damage under this effect the caster may reflect an amount of damage up to twice MNF back to the source.",
+          "Inevitable: A target in the caster's attack pattern may not declare attacks for a number of turns equal to MNF but they may still use skills and abilities.",
+          "Chaos: Once per turn the caster may redirect any spell or ability cast for less than MNF to a target of their choice as long as their MP is full.",
+          "Corruption: A target in the caster's attack pattern loses HP and MP equal to MNF for a number of turns equal to MNF but all their checks are Critical Successes."
+        ],
+        "passive": [
+          "Wickedness: When this spirit's HP is less than half their ATK/DEF/SPD are increased by the amount of MP they used in their previous turn.",
+          "Chaotic: Once per turn this spirit increases all counters on itself equal to the number of spaces they moved in the previous turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "FND",
+        "ATK": "KNO",
+        "DEF": "MNF",
+        "SPD": "VIT",
+        "MP": "SEX"
+      }
+    },
+    "Avatar": {
+      "traits": {
+        "active": [
+          "MultiStrike: The caster may declare a number of additional attacks up to DIV.",
+          "Balance: Once per turn the caster may increase ATK or DEF equal to twice DIV.",
+          "Resonance: Boost the spells or abilities of a target allied spirit by DIV until end of turn.",
+          "Mindfulness: The caster may increase their SPD and ATK by DIV during the combat step until end of turn.",
+          "Energy-Wave: The caster may multiply damage dealt by DIV for a number of turns equal to DIV but all their checks are Critical Failures during that time.",
+          "Equilibrium: The caster may target an area equal to DIV where allies gain MP and reduce counters equal to DIV each turn for a number of turns equal to DIV."
+        ],
+        "passive": [
+          "Cosmic: This spirit gains Avatar counters each turn equal to the number of different Types in their attack pattern which can be used to boost abilities or restore MP.",
+          "Duality: If this spirit performs or receives a Critical Hit/Fail all damage dealt to them is doubled until end of turn."
+        ]
+      },
+      "stat_modifiers": {
+        "HP": "VIT",
+        "ATK": "STR",
+        "DEF": "FND",
+        "SPD": "SEX",
+        "MP": "WIS"
+      }
+    }
+  }
+}

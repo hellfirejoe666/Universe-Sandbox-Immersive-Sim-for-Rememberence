@@ -1,0 +1,105 @@
+{
+  "player_id": "integration_test",
+  "playthrough_start": "2026-06-09T12:25:59.304383",
+  "current_week": 3,
+  "npcs": {},
+  "factions": {},
+  "towns": {},
+  "worlds": {},
+  "systems": {},
+  "narratives": {
+    "npc_npc_000001": {
+      "entity_type": "npc",
+      "text": "Chriswalker is a Tiger/Sagittarius with distinctive biorhythms.",
+      "generated_at": "2026-06-09T12:25:59.574646",
+      "context": {
+        "week": 3,
+        "location": "OldDreamgard"
+      },
+      "view_count": 1
+    },
+    "npc_npc_000002": {
+      "entity_type": "npc",
+      "text": "Skysoar is a Goat/Scorpio with distinctive biorhythms.",
+      "generated_at": "2026-06-09T12:25:59.629362",
+      "context": {
+        "week": 3,
+        "location": "OldDreamgard"
+      },
+      "view_count": 1
+    },
+    "npc_npc_000003": {
+      "entity_type": "npc",
+      "text": "Janewalker is a Goat/Virgo with distinctive biorhythms.",
+      "generated_at": "2026-06-09T12:25:59.684672",
+      "context": {
+        "week": 3,
+        "location": "OldDreamgard"
+      },
+      "view_count": 1
+    }
+  },
+  "discovered_entities": [
+    "npc_npc_000001",
+    "npc_npc_000002",
+    "npc_npc_000003"
+  ],
+  "witnessed_events": [
+    {
+      "week": 1,
+      "timestamp": "2026-06-09T12:25:59.339981",
+      "action": "Raid Outpost",
+      "category": "War",
+      "success": true,
+      "narrative": "In week 1, Faction Raid Outpost.",
+      "narrative_id": "evt_000"
+    },
+    {
+      "week": 1,
+      "timestamp": "2026-06-09T12:25:59.372342",
+      "action": "Declare War",
+      "category": "War",
+      "success": true,
+      "narrative": "In week 1, Faction Declare War.",
+      "narrative_id": "evt_001"
+    },
+    {
+      "week": 2,
+      "timestamp": "2026-06-09T12:25:59.405666",
+      "action": "Recruit Members",
+      "category": "Recruitment",
+      "success": false,
+      "narrative": "In week 2, Faction Recruit Members.",
+      "narrative_id": "evt_002"
+    },
+    {
+      "week": 2,
+      "timestamp": "2026-06-09T12:25:59.442970",
+      "action": "Stockpile Resources",
+      "category": "Consolidation",
+      "success": true,
+      "narrative": "In week 2, Faction Stockpile Resources.",
+      "narrative_id": "evt_003"
+    },
+    {
+      "week": 3,
+      "timestamp": "2026-06-09T12:25:59.479488",
+      "action": "Discover Technique",
+      "category": "Research",
+      "success": true,
+      "narrative": "In week 3, Faction Discover Technique.",
+      "narrative_id": "evt_004"
+    },
+    {
+      "week": 3,
+      "timestamp": "2026-06-09T12:25:59.516176",
+      "action": "Found New Town",
+      "category": "Expansion",
+      "success": true,
+      "narrative": "In week 3, Faction Found New Town.",
+      "narrative_id": "evt_005"
+    }
+  ],
+  "last_save": "2026-06-09T12:25:59.684675",
+  "total_play_time": 0
+}

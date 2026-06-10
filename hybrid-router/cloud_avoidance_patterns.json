@@ -1,0 +1,176 @@
+{
+  "HELLO": {
+    "response": "Hello! How can I help you today?",
+    "added": "2026-04-23T21:05:09.200914",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "HI": {
+    "response": "Hi there! What do you need?",
+    "added": "2026-04-23T21:05:09.200936",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "GOOD MORNING": {
+    "response": "Good morning! Ready to help.",
+    "added": "2026-04-23T21:05:09.200940",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "GOOD AFTERNOON": {
+    "response": "Good afternoon! How can I assist?",
+    "added": "2026-04-23T21:05:09.200944",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "GOOD EVENING": {
+    "response": "Good evening! What do you need?",
+    "added": "2026-04-23T21:05:09.200947",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "THANKS": {
+    "response": "You're welcome!",
+    "added": "2026-04-23T21:05:09.200949",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "THANK YOU": {
+    "response": "You're welcome! Anything else?",
+    "added": "2026-04-23T21:05:09.200952",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "STATUS": {
+    "response": "All systems operational.",
+    "added": "2026-04-23T21:05:09.200955",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "GATEWAY STATUS": {
+    "response": "Gateway is running on http://127.0.0.1:18789",
+    "added": "2026-04-23T21:05:09.200957",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "SYSTEM STATUS": {
+    "response": "All systems normal.",
+    "added": "2026-04-23T21:05:09.200960",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "ARE YOU WORKING": {
+    "response": "Yes, I'm working. How can I help?",
+    "added": "2026-04-23T21:05:09.200963",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "HELP": {
+    "response": "Available commands: status, help, clear, quit. Or just ask me anything!",
+    "added": "2026-04-23T21:05:09.200966",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "WHAT CAN YOU DO": {
+    "response": "I can answer questions, help with code, check status, and more. Just ask!",
+    "added": "2026-04-23T21:05:09.200968",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "COMMANDS": {
+    "response": "Just ask me anything - I'll route to the best model automatically.",
+    "added": "2026-04-23T21:05:09.200971",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "WHAT IS # + #": {
+    "response": "Let me calculate... The answer is [result].",
+    "added": "2026-04-23T21:05:09.200973",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "WHAT IS # - #": {
+    "response": "Let me calculate... The answer is [result].",
+    "added": "2026-04-23T21:05:09.200976",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "WHAT IS # * #": {
+    "response": "Let me calculate... The answer is [result].",
+    "added": "2026-04-23T21:05:09.200978",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "WHAT IS # / #": {
+    "response": "Let me calculate... The answer is [result].",
+    "added": "2026-04-23T21:05:09.200981",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "WHAT TIME IS IT": {
+    "response": "Check your device for the current time.",
+    "added": "2026-04-23T21:05:09.200984",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "WHAT DAY IS IT": {
+    "response": "Check your calendar for today's date.",
+    "added": "2026-04-23T21:05:09.200986",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "TODAY'S DATE": {
+    "response": "Check your device for today's date.",
+    "added": "2026-04-23T21:05:09.200989",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "WEATHER": {
+    "response": "Use the weather skill: 'weather [location]'",
+    "added": "2026-04-23T21:05:09.200991",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "WEATHER TODAY": {
+    "response": "Use: python -m skills.weather [your location]",
+    "added": "2026-04-23T21:05:09.200994",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "WHO ARE YOU": {
+    "response": "I'm your AI assistant, powered by the hybrid router.",
+    "added": "2026-04-23T21:05:09.200997",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "WHAT ARE YOU": {
+    "response": "I'm an AI assistant optimized for token-efficient responses.",
+    "added": "2026-04-23T21:05:09.200999",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "YOUR NAME": {
+    "response": "I'm your assistant. You can call me whatever you like!",
+    "added": "2026-04-23T21:05:09.201002",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "CAN YOU HELP": {
+    "response": "Yes! Just tell me what you need.",
+    "added": "2026-04-23T21:05:09.201005",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "ARE YOU SMART": {
+    "response": "I use smart routing to pick the best model for each task.",
+    "added": "2026-04-23T21:05:09.201010",
+    "source": "default",
+    "cloud_avoidance": true
+  },
+  "HOW SMART ARE YOU": {
+    "response": "Smart enough to know when to use cloud vs local models!",
+    "added": "2026-04-23T21:05:09.201012",
+    "source": "default",
+    "cloud_avoidance": true
+  }
+}

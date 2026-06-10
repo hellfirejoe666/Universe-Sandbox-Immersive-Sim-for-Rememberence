@@ -1,0 +1,52 @@
+{
+  "verses": {
+    "MNF": {
+      "dominant": "Prologue",
+      "recessive": "Epilogue"
+    },
+    "SPL": {
+      "dominant": "Governance",
+      "recessive": "Mystic"
+    },
+    "BEU": {
+      "dominant": "Religion",
+      "recessive": "Truth"
+    },
+    "STR": {
+      "dominant": "Logic",
+      "recessive": "Lessons"
+    },
+    "FND": {
+      "dominant": "Wisdom",
+      "recessive": "Owners"
+    },
+    "KNO": {
+      "dominant": "Wealth",
+      "recessive": "Minds"
+    },
+    "UND": {
+      "dominant": "Matter",
+      "recessive": "Spirit"
+    },
+    "WIS": {
+      "dominant": "Illusion",
+      "recessive": "Blood"
+    },
+    "VIT": {
+      "dominant": "War",
+      "recessive": "Life"
+    },
+    "SEX": {
+      "dominant": "Space",
+      "recessive": "Signs"
+    },
+    "DIV": {
+      "dominant": "Vision",
+      "recessive": "Time"
+    },
+    "EGO": {
+      "dominant": "Peace",
+      "recessive": "Decay"
+    }
+  }
+}

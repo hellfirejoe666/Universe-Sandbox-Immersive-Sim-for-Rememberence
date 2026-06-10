@@ -1,0 +1,11 @@
+{
+  "tokens_used": 414,
+  "tokens_saved": 102,
+  "requests_total": 19,
+  "requests_fast": 3,
+  "requests_smart": 5,
+  "requests_cloud": 0,
+  "requests_cached": 10,
+  "requests_compressed": 0,
+  "requests_localgen": 6
+}

@@ -1,0 +1,196 @@
+{
+  "starSigns": {
+    "Aries": {
+      "biorhythms": {
+        "MNF": 2,
+        "SPL": 1,
+        "BEU": 0,
+        "STR": 5,
+        "FND": 3,
+        "KNO": 6,
+        "UND": 2,
+        "WIS": 3,
+        "VIT": 4,
+        "SEX": 5,
+        "DIV": 1,
+        "EGO": 4
+      }
+    },
+    "Taurus": {
+      "biorhythms": {
+        "MNF": 3,
+        "SPL": 2,
+        "BEU": 1,
+        "STR": 6,
+        "FND": 4,
+        "KNO": 5,
+        "UND": 1,
+        "WIS": 2,
+        "VIT": 3,
+        "SEX": 4,
+        "DIV": 0,
+        "EGO": 5
+      }
+    },
+    "Gemini": {
+      "biorhythms": {
+        "MNF": 4,
+        "SPL": 3,
+        "BEU": 2,
+        "STR": 5,
+        "FND": 5,
+        "KNO": 4,
+        "UND": 0,
+        "WIS": 1,
+        "VIT": 2,
+        "SEX": 3,
+        "DIV": 1,
+        "EGO": 6
+      }
+    },
+    "Cancer": {
+      "biorhythms": {
+        "MNF": 5,
+        "SPL": 4,
+        "BEU": 3,
+        "STR": 4,
+        "FND": 6,
+        "KNO": 3,
+        "UND": 1,
+        "WIS": 0,
+        "VIT": 1,
+        "SEX": 2,
+        "DIV": 2,
+        "EGO": 5
+      }
+    },
+    "Leo": {
+      "biorhythms": {
+        "MNF": 6,
+        "SPL": 5,
+        "BEU": 4,
+        "STR": 3,
+        "FND": 5,
+        "KNO": 2,
+        "UND": 2,
+        "WIS": 1,
+        "VIT": 0,
+        "SEX": 1,
+        "DIV": 3,
+        "EGO": 4
+      }
+    },
+    "Virgo": {
+      "biorhythms": {
+        "MNF": 5,
+        "SPL": 6,
+        "BEU": 5,
+        "STR": 2,
+        "FND": 4,
+        "KNO": 1,
+        "UND": 3,
+        "WIS": 2,
+        "VIT": 1,
+        "SEX": 0,
+        "DIV": 4,
+        "EGO": 3
+      }
+    },
+    "Libra": {
+      "biorhythms": {
+        "MNF": 4,
+        "SPL": 5,
+        "BEU": 6,
+        "STR": 1,
+        "FND": 3,
+        "KNO": 0,
+        "UND": 4,
+        "WIS": 3,
+        "VIT": 2,
+        "SEX": 1,
+        "DIV": 5,
+        "EGO": 2
+      }
+    },
+    "Scorpio": {
+      "biorhythms": {
+        "MNF": 3,
+        "SPL": 4,
+        "BEU": 5,
+        "STR": 0,
+        "FND": 2,
+        "KNO": 1,
+        "UND": 5,
+        "WIS": 4,
+        "VIT": 3,
+        "SEX": 2,
+        "DIV": 6,
+        "EGO": 1
+      }
+    },
+    "Sagittarius": {
+      "biorhythms": {
+        "MNF": 2,
+        "SPL": 3,
+        "BEU": 4,
+        "STR": 1,
+        "FND": 1,
+        "KNO": 2,
+        "UND": 6,
+        "WIS": 5,
+        "VIT": 4,
+        "SEX": 3,
+        "DIV": 5,
+        "EGO": 0
+      }
+    },
+    "Capricorn": {
+      "biorhythms": {
+        "MNF": 1,
+        "SPL": 2,
+        "BEU": 3,
+        "STR": 2,
+        "FND": 0,
+        "KNO": 3,
+        "UND": 5,
+        "WIS": 6,
+        "VIT": 5,
+        "SEX": 4,
+        "DIV": 4,
+        "EGO": 1
+      }
+    },
+    "Aquarius": {
+      "biorhythms": {
+        "MNF": 0,
+        "SPL": 1,
+        "BEU": 2,
+        "STR": 3,
+        "FND": 1,
+        "KNO": 4,
+        "UND": 4,
+        "WIS": 5,
+        "VIT": 6,
+        "SEX": 5,
+        "DIV": 3,
+        "EGO": 2
+      }
+    },
+    "Pisces": {
+      "biorhythms": {
+        "MNF": 1,
+        "SPL": 0,
+        "BEU": 1,
+        "STR": 4,
+        "FND": 2,
+        "KNO": 5,
+        "UND": 3,
+        "WIS": 4,
+        "VIT": 5,
+        "SEX": 6,
+        "DIV": 2,
+        "EGO": 3
+      }
+    }
+  }
+}

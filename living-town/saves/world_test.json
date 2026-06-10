@@ -1,0 +1,60 @@
+{
+  "name": "Test World",
+  "created_at": "2026-06-09T22:46:05.509555",
+  "last_played": "2026-06-09T22:46:05.509586",
+  "version": "1.0",
+  "characters": {
+    "char_001": {
+      "name": "Test Hero",
+      "level": 10,
+      "material": "Human",
+      "materia": "Warrior",
+      "id": "char_001",
+      "inventory": [
+        "item_0003"
+      ],
+      "equipment": {
+        "Head": null,
+        "Body": "item_0002",
+        "Hands": null,
+        "Legs": null,
+        "Feet": null,
+        "Other": null,
+        "Weapon": "item_0001"
+      }
+    }
+  },
+  "active_character_id": "char_001",
+  "items": {
+    "item_0001": {
+      "name": "Iron Sword",
+      "level": 5,
+      "type": "Weapon",
+      "id": "item_0001"
+    },
+    "item_0002": {
+      "name": "Steel Armor",
+      "level": 10,
+      "type": "Armor",
+      "id": "item_0002"
+    },
+    "item_0003": {
+      "name": "Dragon Blade",
+      "level": 50,
+      "type": "Weapon",
+      "id": "item_0003"
+    }
+  },
+  "npcs": {},
+  "structures": {},
+  "factions": {},
+  "galaxies": {},
+  "time": {
+    "hour": 0,
+    "day": 0,
+    "week": 0,
+    "month": 0,
+    "year": 0,
+    "decade": 0
+  }
+}
